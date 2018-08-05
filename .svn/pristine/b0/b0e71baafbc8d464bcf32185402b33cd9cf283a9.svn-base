@@ -1,0 +1,18 @@
+body{background: ghostwhite}
+.Tn0warpkhung{width: 80%; max-width: 1080px; margin-left: auto; margin-right: auto; margin-bottom: 30px}
+.Tn0khung{width: 100%; border-bottom: 1px solid #ddd; float: left}
+.Tn0khungtag{padding:12px 23px;float: left; z-index: 1px; font-size: 14px ; cursor: pointer}
+.Tn0khungtag:hover{background: #eee}
+.active:hover{background: ghostwhite}
+.active{border: 1px solid #ddd; border-bottom: 1px solid ghostwhite; margin-bottom: -1px ; float: left}
+.Tn0Banggia{border: solid 1px #ddd; text-align: left; font-size: 13px; margin-top: 20px; padding: 0px;}
+.Tn0Banggiahead{padding: 15px; background: #e24220; color: white; text-align: center; font-size: 15px}
+.Tn0Banggiain{padding-left: 15px; padding-right: 15px; background: white; padding-bottom:20px; padding-top: 20px; color: #918e8e   }
+.Tn0Banggiaprice{padding: 15px 10px ; background: #E24220; color: white; font-size: 15px}
+.Tn0Banggiamore{padding: 3.5px 10px; opacity: 0; background: white; color: #E24220; margin-right: auto; margin-left: auto; text-align: center;width: 100px; font-size: 14px; margin-top: 2px; margin-bottom: 2px; display: none; animation-duration: 2s}
+.Price{display: block; opacity: 1; animation-duration: 2s}
+.Tn0Banggiaprice:hover .Tn0Banggiamore{opacity: 1; display: block; -webkit-animation-name: fadeIn; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name:fadeIn}
+.Tn0Banggiaprice:hover{padding: 10px}
+.Tn0Banggiaprice:hover .Price{display: none}

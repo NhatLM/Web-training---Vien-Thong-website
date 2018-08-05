@@ -1,0 +1,184 @@
+*,
+html {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0px;
+    margin: 0px;
+	font-family: sans-serif;
+}
+
+.center{width: 80%;text-align: center;margin-right: auto;margin-left: auto; max-width: 1080px}
+
+
+.centerdiv{width: 80%;max-width: 1080px}
+.clear {
+	clear: both;
+}
+
+
+.cong_ty_viettelidc_box {color:white;}
+.cong_ty_viettelidc_box > h4 {
+	font-size:24px;
+	margin-top:30px;
+}
+.cong_ty_viettelidc_box i 
+{margin-right:5px;}
+.cong_ty_viettelidc_box > span{
+	display: block;
+}
+
+#form_map{
+	width: 80%;
+	padding-top: 50px;
+	float:left;
+	max-width:1080px;
+}
+#form_map > div{
+	width: 80%;
+	margin: 20px auto;
+	font-size: 0.8em;
+}
+#form_map > div > div{
+	float: left;
+	width: 50%;
+}
+#form_map > div > div >  h4{
+	text-align: center;
+	font-size:16px;
+	color:white;
+}
+#form_map > div > div .input_form{
+	margin-top: 10px;
+}
+#form_map > div > div .input_form label{
+	display: block;
+	color:white;
+	
+}
+#form_map > div > div .input_form input{
+	width: 95%;
+	padding: 10px;
+	margin-top: 0px;
+	background-color: #3C3C3C;
+	opacity:0.6;
+	outline: none;
+	border: none;
+	box-shadow:0.5px 0.5px 2px black;
+	color:white;
+}
+#form_map > div > div .input_form textarea{
+	width: 95%;
+	height: 212px;
+	background-color: #3C3C3C;
+	opacity:0.6;
+	padding: 10px;
+	outline: none;
+	border: none;
+	margin-top: 20px;
+	box-shadow:0.5px 0.5px 2px black;
+	color:white;
+}
+#form_map > div > div .ma-bao_ve label{
+	display: inline-block;
+}
+#form_map > div > div .ma-bao_ve label span:nth-of-type(1){
+	font-weight: bold;
+}
+#form_map > div > div > button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 30px;
+	background-color:#f05a3a;
+	transition: all 0.3s;
+	outline: none;
+	border: none;
+	margin-bottom:30px;
+}
+#form_map > div > div > button:hover{
+	opacity:0.85;
+}
+#google_map{padding-top:50px;}
+#google_map > iframe{
+	width: 100%;
+	margin: auto;
+}
+
+@media only screen and (max-width: 1000px){
+	#cong_ty_viettel_idc > .middle_content > .cong_ty_vittelidc_box{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	#form_map > div > div{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#form_map > div > div .input_form input, #form_map > div > div .input_form textarea{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	#cong_ty_viettel_idc > .middle_content > .cong_ty_vittelidc_box{
+		width: 100%;
+	}
+	.footercl{width: 50%}
+}
+.footers{;font-size: 12px; color: white; padding-top: 40px}
+.footersa{color: #95a5a6; text-decoration: none}
+.footercl{padding-left:10px;padding-right: 40px; padding-top: 100px; padding-bottom: 30px; width:20%;float: left; text-align: left;color: white}
+.footerc2{padding-left:10px;padding-right: 50px; width:50%; text-align: right;float: right;font-size: 17px}
+.footerc3{padding-left:20px;padding-top: 10px; width:100%; text-align: left;float: left;border-top:solid 1px white;padding-bottom: 20px; margin-top: 20px;color: white}
+.footersa:hover{color: white; text-decoration: none}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background:#46495E;
+    width:40px;
+    height:40px;
+    text-align:center;
+    font-size:16px;
+    padding-top:6px;
+    border-radius:5px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+@media screen and (max-width:1099px) {
+    .centerdiv{width: 100%}
+    .menu{display: none}
+    .section4div{width:48%}
+    .parasection{width: 48%}
+    .section8div{width: 48%}
+}
+@media screen and (max-width:699px) {
+    .section1div{width: 100%; margin-top: 20px}
+    .section1div1{width: 100%; margin: 0px;margin-top: 20px;}
+    .section2div1{width: 98%}
+    .section2div2{width: 98%}
+    .section3div{width: 100%}
+    .section4div{width:98%}
+    .parasection{width: 98%}
+    #parasection1{width: 98%}
+    #parasection2{width: 98%}
+    #parasection3{width: 98%}
+    .parasection4{width: 98%}
+    .section8div{width: 98%}
+    .footercl{width: 50%}
+}
+@media screen and (max-width:419px)
+{.footercl{width: 100%}}

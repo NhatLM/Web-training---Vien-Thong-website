@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cloud Storage</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--font awesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="Liem_cloudStorage.css"/>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="cloud-storage-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-70p col-sm-12 col-xs-12">
+                    <div class="article-wrapper">
+                        <h1 class="article-title">Lưu trữ trực tuyến Cloud Storage</h1>
+                        <p>Cloud Storage là dịch vụ lưu trữ dữ liệu trực tuyến, cho phép người dùng có thể lưu trữ và đồng bộ các dữ liệu giữa các thiết bị đầu cuối qua Internet một cách dễ dàng và tiện lợi. Dữ liệu sẽ được lưu trữ đảm bảo an toàn và bảo mật tuyệt đối trên Cloud (đám mây) giúp cho người dùng có thể truy cập, sử dụng bất cứ lúc nào, tại bất cứ đâu chỉ cần có kết nối Internet.</p>
+                        <p>Điểm nổi bật của dịch vụ lưu trữ trực tuyến là khả năng phân quyền &amp; chia sẻ dữ liệu trực tuyến giữa các tài khoản trong một nhóm người dùng (team foloder) mọi lúc mọi nơi. Nhờ đó dịch vụ có thể giúp cho thông tin, dữ liệu người dùng trong nhóm được cập nhập một cách đầy đủ, chính xác và thông suốt</p>
+                        <p>Ngoài ra dịch vụ lưu trữ trực tuyến còn được tùy biến hỗ trợ việc tải và upload dữ liệu với tốc độ cao cho phép người dùng có thể chia sẻ dữ liệu một cách thuận tiện và nhanh chóng nhất</p>
+                        <p>Ứng dụng:</p>
+                        <p>– Người dùng cá nhân: Chia sẻ, upload file trực tuyến với tốc độ cao</p>
+                        <p>– Tổ chức doanh nghiệp: Quản lý bảo mật, chia sẻ dữ liệu trực tuyến 24/7 giữa nội bộ thành viên trong một phòng ban hoặc với đối tác, khách hàng.</p>
+                        <p>Mỗi khách hàng sẽ được cung cấp tài khoản admin và nhiều tài khoản user để kết nối sử dụng dịch vụ. Mỗi tài khoản admin có quyền tạo, xóa, sửa mật khẩu của các tài khoản user.</p>
+                        <h1 class="article-inner-title">Bảng giá dịch vụ lưu trữ trực tuyến Cloud Storage</h1>
+                        <img src="img/bang-gia-storebox1.png" alt="">
+                        <p class="more-detail"><span>Tham Khảo Chi Tiết:</span> <a href="#">Dịch vụ lưu trữ StoreBox</a> và <a href="#">Dịch vụ Cloud Backup</a></p>
+                        <h1 class="article-title">Các dịch vụ khác tại Viettel IDC</h1>
+                        <ul class="article-services">
+                            <li>Dịch vụ cho <a href="#">thuê chỗ đặt máy chủ – Colocation Server</a></li>
+                            <li>Dịch vụ cho <a href="#">thuê máy chủ – Dedicated Server</a></li>
+                            <li>Dịch vụ cho <a href="#">thuê máy chủ ảo VPS</a></li>
+                            <li>Dịch vụ cho <a href="#">thuê tủ Rack</a></li>
+                        </ul>
+                        <p>
+                            <b>Quý khách hãy liên hệ thông tin bên dưới để được tư vấn dịch vụ và giá cước.</b>
+                            <br>
+                            <b>Công ty TNHH Viettel IDC</b>
+                            <br>
+                            <span>Địa chỉ: </span>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;<b>- Số 131 Trần Huy Liệu, P.8, Q.Phú Nhuận, TP. HCM</b>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;<b>- Số 01, đường Nguyễn Huy Tưởng, Q. Thanh Xuân, TP. Hà Nội</b>
+                            <br>
+                            <span>Hotline: </span><b>0986 706 839 - 0944 991 779</b>
+                            <br>
+                            <span>Điện thoại: </span><b>18008088 – EXT: 423</b>
+                        </p>
+                        <a href="#" class="sale-off-btn">Giảm giá đến 25% tất cả các dịch vụ Cloud tại Viettel IDC</a>
+                    </div>
+                </div>
+                <div class="col-md-30p col-sm-12 col-xs-12">
+                    <div class="aside-section-wrapper">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6 online-support">
+                                <h2 class="aside-title">Hỗ Trợ Trực Tuyến</h2>
+                                <ul>
+                                    <li class="mobile">Kinh Doanh: <b>0986 70.68.39 - 0944 991.779</b></li>
+                                    <li class="skype">Chat Skype: <b>hongls2014</b></li>
+                                    <li class="phone">Kỹ Thuật: <b>1800 8088</b></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 col-sm-6 services-catalogs">
+                                <h2 class="aside-title">Bảng Giá Dịch Vụ</h2>
+                                <ul class="services-list">
+                                    <li><a href="#">Dịch vụ Hội nghị truyền hình</a></li>
+                                    <li><a href="#">Thuê máy chủ</a></li>
+                                    <li><a href="#">Thuê tủ Rack</a></li>
+                                    <li><a href="#">Thuê VPS SSD</a></li>
+                                    <li><a href="#">Thuê Cloud Server</a></li>
+                                    <li><a href="#">Web Hosting</a></li>
+                                    <li><a href="#">Email theo tên miền</a></li>
+                                    <li><a href="#">Tên miền</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 col-xs-12 news">
+                                <h2 class="aside-title">Thông Tin Mới</h2>
+                                <ul class="news-list">
+                                    <li class="clear-fix">
+                                        <a href="#" class="news-title">Giảm tới 30% các gói Bundle máy chủ ảo Cloud Server, Backup Cloud Server siêu hấp dẫn</a>
+                                        <span class="post-date">30/11/2017</span>
+                                    </li>
+                                    <li class="clear-fix">
+                                        <a href="#" class="news-title">Những lời khuyên tốt nhất cho các doanh nghiệp nhỏ về ảo hóa</a>
+                                        <span class="post-date">29/08/2017</span>
+                                    </li>
+                                    <li class="clear-fix">
+                                        <a href="#" class="news-title">Khuyến mãi tất cả các dịch vụ Cloud tại Viettel IDC</a>
+                                        <span class="post-date">29/08/2017</span>
+                                    </li>
+                                    <li class="clear-fix">
+                                        <a href="#" class="news-title">Các hãng Game Online lớn bị tấn công DDOS như thế nào?</a>
+                                        <span class="post-date">28/08/2017</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 col-xs-12 advertise">
+                                <img src="img/banner_KM_Cloud_backup_r.jpg" class="" alt="">
+                                <img src="img/banner_KM_Cloud_Server_r.jpg" alt="">
+                                <img src="img/viettelPortal.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

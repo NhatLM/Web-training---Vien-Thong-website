@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/CloudSever.js"></script>
+    <link rel="stylesheet" href="css/CloudSever.css">
+    <link rel="stylesheet" href="css/Tn0Menu.css">
+    <link rel="stylesheet" href="css/Tn0Footer.css">
+</head>
+<body>
+
+<header class="menu">
+    <div class="center">
+        <div class="logowarp">
+            <div class="row justify-content-center">
+                <img class="menulogo" src="img/logo.png" >
+            </div>
+        </div>
+        <div class="tagwarp">
+
+            <div class="menutag">
+                <a href="LienHe.html" target="_self" style="text-decoration:none; color:white"><b>LIÊN HỆ</b></a>
+            </div>
+            <div class="menutag">
+                <a href="KhuyenMai.html" target="_self" style="text-decoration:none; color:white"><b>KHUYẾN MÃI</b></a>
+            </div>
+            <div class="menutag"><b>CÔNG NGHỆ</b></div>
+            <div class="menutag active">
+                <b>CLOUD BASE <i style="color: orange" class="fa">&#xf107;</i></b>
+                <div class="dropdownmn">
+                    <a href="CloudSever.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-cloud" aria-hidden="true"></i>
+                            <b>Server Cloud</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="PrivateCloud.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-mixcloud" aria-hidden="true"></i>
+                            <b>Private Cloud</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                            <b>Storebox</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-database" aria-hidden="true"></i>
+                            <b>Cloud Storage</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                            <b>Cloud Backup</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+                            <b>Security</b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="menutag">
+                <b>MÁY CHỦ <i style="color: orange" class="fa">&#xf107;</i></b>
+                <div class="dropdownmn">
+                    <a href="ThueMayChu.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                            <b> Thuê Máy Chủ</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="ThueChoDat.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                            <b> Thuê Chỗ Đặt Máy Chủ</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-align-justify" aria-hidden="true"></i>
+                            <b>Thuê Tủ Crack</b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="menutag "><b><a href="home.html" style="text-decoration: none ; color: white"> <i class="fa">&#xf015;</i> TRANG CHỦ</a></b></div>
+        </div>
+    </div>
+</header>
+<div class="navmenu" id="NavMenu">
+    <img id="menulogo" src="img/logo.png">
+    <span style="font-size:30px;cursor:pointer;float: right" onclick="openCloseNav()">&#9776;</span>
+</div>
+<div id="navmenuin">
+    <a class="menuintag" href="home.html">Trang Chủ</a>
+    <div class="dropdown">
+        <a class="menuintag" href="#">Máy Chủ<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <div class="submenu1">
+            <a class="menuintag" href="ThueMayChu.html"><i class="fa fa-server" aria-hidden="true" style="float: left; margin-top: 4px"></i> Thuê Máy Chủ
+            </a>
+            <a class="menuintag" href="ThueChoDat.html"><i class="fa fa-hospital-o" aria-hidden="true" style="float: left; margin-top: 4px"></i>Thuê Chỗ Đặt
+            </a>
+            <a class="menuintag" href="ThueChoDat.html"><i class="fa fa-align-justify" aria-hidden="true" style="float: left; margin-top: 4px"></i>Thuê Tủ Crack
+            </a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a class="menuintag" href="#">Cloud Base<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <div class="submenu1">
+            <a class="menuintag" href="CloudSever.html"><i class="fa fa-cloud" aria-hidden="true" style="float: left; margin-top: 4px"></i>Server Cloud
+            </a>
+            <a class="menuintag" href="PrivateCloud.html"><i class="fa fa-mixcloud" aria-hidden="true" style="float: left; margin-top: 4px"></i>Private Cloud
+            </a>
+            <a class="menuintag" href=""><i class="fa fa-cloud-upload" aria-hidden="true" style="float: left; margin-top: 4px"></i>Storebox
+            </a>
+            <a class="menuintag" href=""><i class="fa fa-database" aria-hidden="true" style="float: left; margin-top: 4px"></i>Cloud Storage
+            </a>
+            <a class="menuintag" href=""><i class="fa fa-floppy-o" aria-hidden="true" style="float: left; margin-top: 4px"></i>Cloud Backup
+            </a>
+            <a class="menuintag" href=""> <i class="fa fa-shield" aria-hidden="true" style="float: left; margin-top: 4px"></i>Security</i>
+            </a>
+        </div>
+    </div>
+    <a class="menuintag" href="KhuyenMai.html">Khuyến mãi</a>
+    <a class="menuintag" href="#">Công nghệ</a>
+    <a class="menuintag" href="LienHe.html">Liên Hệ</a>
+</div>
+
+<div id="C_cloud_section1">
+    <div class="middle_Section">
+
+        <div class="panel-heading"><div class="panel-title"><h2>BẢNG GIÁ THUÊ VPS CLOUD SERVER</h2></div></div>
+        <div class="panel-body">
+           <p> <a href="#">Cloud VPS </a>(còn gọi là Cloud Sever) là dịch vụ cung cấp hạ tầng trên nền tảng <a
+                   href="#">điện toán đám mây </a>. sử dụng biện pháp công nghệ ảo hóa của VMware - hảng dẫn đầu trong lĩnh vực ảo
+               hóa <a href="#">Cloud VPS </a>(còn gọi là Cloud Sever) là dịch vụ cung cấp hạ tầng trên nền tảng <a
+                       href="#">điện toán đám mây </a>. sử dụng biện pháp công nghệ ảo hóa của VMware - hảng dẫn đầu trong lĩnh vực ảo
+               hóa </p>
+            <p> <a href="#">Cloud VPS </a>(còn gọi là Cloud Sever) là dịch vụ cung cấp hạ tầng trên nền tảng <a
+                    href="#">điện toán đám mây </a>. sử dụng biện pháp công nghệ ảo hóa của VMware - hảng dẫn đầu trong lĩnh vực ảo
+                hóa <a href="#">Cloud VPS </a>(còn gọi là Cloud Sever) là dịch vụ cung cấp hạ tầng trên nền tảng <a
+                        href="#">điện toán đám mây </a>. sử dụng biện pháp công nghệ ảo hóa của VMware - hảng dẫn đầu trong lĩnh vực ảo
+                hóa</p>
+            <p> <a href="#">Cloud VPS </a>(còn gọi là Cloud Sever) là dịch vụ cung cấp hạ tầng trên nền tảng <a
+                    href="#">điện toán đám mây </a>. sử dụng biện pháp công nghệ ảo hóa của VMware - hảng dẫn đầu trong lĩnh vực ảo
+                hóa <a href="#">Cloud VPS </a>(còn gọi là Cloud Sever) là dịch vụ cung cấp hạ tầng trên nền tảng <a
+                        href="#">điện toán đám mây </a>. sử dụng biện pháp công nghệ ảo hóa của VMware - hảng dẫn đầu trong lĩnh vực ảo
+                hóa</p>
+
+    </div>
+</div>
+</div>
+<div id="C_cloud_section2">
+    <div class="middle_Section">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <h1>KHÁC BIỆT CỦA VIETTEL IDC</h1>
+                <p>Bạn sẽ được cung cấp dịch vụ ANTI DDOS tốt nhất tại Viettel IDC. Dịch vụ cao cấp được cung cấp miễn phí duy nhất tại Việt Nam. Đây là điểm khác biệt mà các nhà cung cấp khác không có được.</p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6">
+                <p><i class="fa fa-5x fa-shield"></i></p>
+                <h3>ANTI DDOS LAYER 4</h3>
+                <p> Hệ thống Antiddos tự động lọc và dừng các lệnh TCP-SYN, TCP-ACK, TCP-PSH, TCP-URG và tấn công ICMP ở biên do đó các cuộc tấn không không bao giờ ảnh hưởng máy chủ của bạn. </p>
+                <button class="btn btn-control">TÌM HIỂU ANI DDOS</button>
+            </div>
+            <div class="col-md-6">
+                <p><i class="fa fa-5x fa-university"></i></p>
+                <h3>ANTI DDOS LAYER 7</h3>
+                <p> Tự động phát hiện những thay đổi đột ngột trong lưu lượng băng thông và ngăn chặn, bảo vệ máy chủ khỏi các cuộc tấn công DDoS lớp 7 (Layer 7), như POST floods, POST-botnet, JSBYPASS-botnet và các cuộc tấn công vào máy chủ DNS…</p>
+
+            </div>
+
+    </div>
+</div>
+</div>
+
+        <div id="C_cloud_section3">
+            <div class="middle_Section">
+                <div class="panel-heading"><div class="panel-title"><h1>BẢNG GIÁ DỊCH VỤ CLOUD SEVER</h1></div>
+                <P>Bạn có thể lựa chọn cấu hình bên dưới hoặc liên hệ với chúng tôi để được báo giá cấu hình khác hoặc giá dự án với chi phí tối ưu nhất</P>
+                <div class="panel-body">
+                    <button class="btn btn-control btn-lg ">GIẢM GIÁ TỚI 25% CÁC DỊCH VỤ CLOUD TẠI VIETTEL IDC</button>
+                    <div></div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="C_cloud_section4">
+            <div class="middle_Section container">
+               <div class="row justify-content-center">
+                   <div class="col-md-3 col-sm-6">
+                       <div>
+                           <p>GC-1</p>
+                           <ul>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                           </ul>
+                           <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                           <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                       <div>
+                           <p>GC-1</p>
+                           <ul>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                           </ul>
+                           <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                           <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                       <div>
+                           <p>GC-1</p>
+                           <ul>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                           </ul>
+                           <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                           <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                       </div>
+                   </div>
+                   <div class="col-md-3 col-sm-6">
+                       <div>
+                           <p>GC-1</p>
+                           <ul>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                               <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                           </ul>
+                           <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                           <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                       </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div>
+                            <p>GC-1</p>
+                            <ul>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> CPU: <strong>2vCPU</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> HHD: <strong>20GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> RAM: <strong>1GB</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Data Transfer: <strong>unlimited</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Số địa chỉ IP: <strong>1</strong></li>
+                                <li> <i class="fa fa-chevron-right" aria-hidden="true"></i> Băng Thông: <strong>1Mbps</strong></li>
+                            </ul>
+                            <p>2.500.000 <sup>VNĐ</sup>/<sub>THÁNG</sub></p>
+                            <button class="btn btn-contain btn-md">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="divngu">THAM KHẢO BẢNG GIÁ CLOUD SEVER LƯU TRỮ TỐC ĐỘ CAO</button>
+        </div>
+        </div>
+        <div id="C_cloud_section5">
+            <div class="middle_Section">
+                <div class="panel-heading"><div class="panel-title"><h1>GIẢI PHÁP THEO YÊU CẦU</h1></div></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel-heading"><div class="panel-title"><h3>Với kinh nghiệm triển khai nhiều dự án lớn
+                        , Viettel IDC là đối tác đáng tin cậy đồng hành đén thành công cho  dự án của bạn</h3></div></div>
+                        <div class="panel-body">
+                            <p>+ Xây dựng hệ thống đảm bảo chia tải và dự phòng cho các website có lượng truy cập lớn, website thương mại điện tử, mobile app, đảm bảo uptime 99,9%</p>
+                            <p>+ Xây dựng hệ thống Mail Server, File Server…</p>
+                            <p>+ Xây dựng hệ thống live video, video streaming</p>
+                            <p>+ Bảo mật chống tấn công DDOS</p>
+                            <button class="btn btn-control">LIÊN HỆ TƯ VẤN</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6"><img src="img/giai-phap-may-chu.jpg" alt=""></div>
+
+                </div>
+                </div>
+            </div>
+                <div id="C_cloud_section6">
+                    <div class="middle_Section">
+                        <div class="panel-heading C_cloud_part_transfrom">
+                            <div class="panel-title">
+                                <h1>DỊCH VỤ TỐT TRÊN HẠ TẦNG TỐT</h1>
+                                <p>Sử dụng và chi trả theo nhu cầu sử dụng. Khả năng nâng cấp/hạ cấp linh hoạt giúp hạn chế lãng phí tài nguyên</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5 C_cloud_part_transfrom">
+                                <div>
+                                    <div class="C_cloud_S6_Document">
+                                        <h3>Triển khai siêu tốc</h3>
+                                        <p>
+                                            Triển khai máy chủ ảo nhanh chóng trong vài click chuột, với công cụ quản trị và tài nguyên sẵn có
+                                        </p>
+                                    </div>
+                                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa fa-rocket fa-4x"></i></div>
+                                </div>
+                                <div >
+                                    <div class="C_cloud_S6_Document">
+                                        <h3>Quản lý dễ dàng</h3>
+                                        <p>
+                                            Hệ thống quản trị trên nền web, giao diện thân thiện, tích hợp nhiều tính năng cho phép admin tự thao tác
+                                        </p>
+                                    </div>
+                                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-cubes fa-3x"></i></div>
+                                </div>
+                                <div>
+                                    <div class="C_cloud_S6_Document">
+                                        <h3>Bảo mật tối ưu</h3>
+                                        <p>
+                                            Công nghệ VXLAN tạo các mạng ảo độc lập. Firewall ảo hiệu suất cao, đầy đủ tính năng (VPN, Loadbalancer, NAT…)
+                                        </p>
+                                    </div>
+                                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-user-secret fa-4x"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 C_cloud_part_transfrom">
+                                <div class="col-md-12" >
+                                    <div><i class="fa fa-linux" aria-hidden="true"></i></div>
+                                    <div><i class="fa fa-windows" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 C_cloud_part_transfrom">
+                                <div>
+                                    <div class="C_cloud_S6_Logo">
+                                        <i class="fa  fa-lg  fa-shopping-cart fa-3x"></i></div>
+                                    <div class="C_cloud_S6_Document">
+                                        <h3>Mở rộng linh hoạt</h3>
+                                        <p>
+                                            Mở rộng nhanh khi có nhu cầu và hạ cấp (CPU, RAM) khi không cần sử dụng nhiều tài nguyên
+                                        </p>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-shield fa-3x"></i></div>
+                                    <div class="C_cloud_S6_Document">
+                                        <h3>An toàn dữ liệu</h3>
+                                        <p>
+                                            Dữ liệu lưu trữ tập trung trên hệ thống SAN. Máy chủ ảo hoạt động ổn định ngay cả khi có 1 máy chủ vật lý bị lỗi
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-server fa-3x"></i></div>
+                                    <div class="C_cloud_S6_Document">
+                                        <h3>Cấu hình mạnh mẽ</h3>
+                                        <p>
+                                            Hạ tầng phần cứng và giải pháp công nghệ từ các nhà cung cấp hàng đầu: VMWare, Cisco, NetApp, IBM, EMC,…
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+<div id="C_cloud_section7">
+                <div class="middle_Section">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h1>VÌ SAO NÊN CHỌN VIETTEL IDC</h1>
+                            <p>Lựa chọn để thành công cùng nhà cung cấp dịch vụ IDC hàng đầu Việt Nam. Viettel IDC cam kết mang đến cho bạn hạ tầng lý tưởng, dịch vụ tận tâm</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                        <p><i class="fa fa-5x fa-university"></i></p>
+                            <h3>Trung tâm dữ liệu</h3>
+                            <p>5 trung tâm dữ liệu xây dựng theo tiêu chuẩn quốc tế Tier 3, với quy mô lớn và hiện đại nhất Việt Nam</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p><i class="fa fa-5x fa-lock"></i></p>
+                            <h3>An toàn thông tin</h3>
+                            <p>Đảm bảo sao lưu định kỳ 100% hệ thống, không có sự xâm nhập thành công nào vào hệ thống. Bảo mật mọi thông tin</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p><i class="fa fa-5x fa-life-ring"></i></p>
+                            <h3>Hỗ trợ 24/7</h3>
+                            <p>Đội ngũ IT chuyên môn cao, chăm sóc khách hàng 24/7 sẵn sàng cho mọi tình huống, giải quyết mọi vấn đề của bạn</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p><i class="fa fa-5x fa-university"></i></p>
+                            <h3>Hỗ trợ 24/7</h3>
+                           <p> Hạ tầng lý tưởng, giải pháp công nghệ, cấu hình mạnh mẽ với giá cả rẻ nhất thị trường</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+<a onclick="topFunction()" id="myBtn" title="Go to top" href="#navmenuin" ><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<div class="footers" style="background-image:url('img/LienHe.jpg');background-position: center">
+    <div class="row justify-content-center " style="margin: 0px">
+        <div class="center">
+            <div class="footercl" style="padding-right: 20px">
+                <h5>CÔNG VIÊN PHẦN MỀM QUANG TRUNG</h5>
+
+                <p style="float: left">
+                    <i class="fa fa-map-marker"></i>
+                    Phường Tân Chánh Hiệp , quận 12 , thành phố Hồ Chí Minh
+                    <br>
+                    <i class="fa fa-phone"></i>
+                    (84-28) 3715 5054<br>
+                    08.888.77.606<br>
+                    0932.03.03.63<br>
+                    08.888.77.607
+                    <br>
+                    <i class="fa fa-envelope"></i>
+                    <a class="footersa" href="">qtsc@qtsc.com.vn</a>
+                    <br>
+                    <i class="fa fa-link"></i>
+                    <a class="footersa" href="">www.qtsc.com.vn</a>
+                </p>
+            </div>
+            <div class="footercl">
+                <h5>HOSTING</h5>
+
+                <p style="float: left">
+                    <a class="footersa" href="">Web Hosting</a>
+                    <br>
+                    <a class="footersa" href="">Email Hosting</a>
+                    <br>
+                    <a class="footersa" href="">Online Storage</a>
+                    <br>
+                    <a class="footersa" href="">Hosting Windows</a>
+                    <br>
+                    <a class="footersa" href="">Hosting giá rẻ</a>
+                </p>
+            </div>
+            <div class="footercl">
+                <h5>DỊCH VỤ</h5>
+
+                <p style="float: left">
+                    <a class="footersa" href="">Thuê VPS giá rẻ</a>
+                    <br>
+                    <a class="footersa" href="">VPS chất lượng cao</a>
+                    <br>
+                    <a class="footersa" href="">Thuê Sever riêng</a>
+                    <br>
+                    <a class="footersa" href="">Thuê Cloud Sever SSD</a>
+                    <br>
+                    <a class="footersa" href="">Thuê chỗ đặt Sever</a>
+                    <br>
+                    <a class="footersa" href="">Hội nghị truyền hinh</a>
+                    <br>
+                    <a class="footersa" href="">Thuê chỗ đặt Sever</a>
+                </p>
+            </div>
+            <div class="footercl">
+                <h5>THÔNG TIN</h5>
+
+                <p style="float: left">
+                    <a class="footersa" href="">Quy định đổi trả - hoàn tiền</a>
+                    <br>
+                    <a class="footersa" href="">Chính sách bảo mật thông tin</a>
+                    <br>
+                    <a class="footersa" href="">Dịch vụ sao lưu dữ liệu</a>
+                    <br>
+                    <a class="footersa" href="">Tài liệu dịch vụ</a>
+                    <br>
+                    <a class="footersa" href="">Dịch vụ lưu trữ trực tuyến</a>
+                    <br>
+                    <a class="footersa" href="">Dịch vụ cloud backup</a>
+                </p>
+            </div>
+            <div class="footercl">
+                <h5>THUÊ MÁY CHỦ</h5>
+
+                <p style="float: left">
+                    <a class="footersa" href="">Thuê máy chủ HP</a>
+                    <br>
+                    <a class="footersa" href="">Thuê máy chủ IBM</a>
+                    <br>
+                    <a class="footersa" href="">Thuê máy chủ supermicro</a>
+                    <br>
+                    <a class="footersa" href="">Thuê máy chủ tặng điện thoại</a>
+                    <br>
+                    <a class="footersa" href="">Lưu trữ trực tuyến</a>
+                    <br>
+                    <a class="footersa" href="">Colocation sever in Vietnam</a>
+                    <br>
+                    <a class="footersa" href="">Thuê Email Sever</a>
+                </p>
+            </div>
+            <div class="footerc2">
+                <p style="float:right">
+                    <a class="footersa" href="https://www.facebook.com/quangtrungsoftwarecity"><i  class="fa">&#xf09a;</i></a>
+                    <a class="footersa" href="https://twitter.com/QTSC"><i class="fa">&#xf099;</i></a>
+                    <a class="footersa" href="https://plus.google.com/+CôngviênphầnmềmQuangTrung"><i class="fa">&#xf0d5;</i></a>
+                    <a class="footersa" href="https://www.youtube.com/user/ThuyQTSC/videos"><i  class="fa">&#xf16a;</i></a>
+                </p>
+            </div>
+            <div class="footerc3">
+                <p>© Copyright - 2013 : All Rights Reserved. &amp; Designed by <a class="footersa" href="http://hisoft.vn/">HISOFT</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center " style="margin: 0px">
+    </div>
+</div>
+</body>
+<script src="js/Tn0Menu.js"></script>
+<script src="js/Tn0Footer.js"></script>
+<script src="js/wow.min.js"></script>
+</html>

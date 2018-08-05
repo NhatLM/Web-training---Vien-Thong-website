@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>haipd-Anti DDOS</title>
+    <!--Link thư viện online code frond-end:-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/haipd-style.css">
+    <link rel="stylesheet" href="css/haipd-css.css">
+
+</head>
+<body>
+<div class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-sm-7 col-md-8 ">
+            <div class="clearfix-left">
+                <h1>DỊCH VỤ ANTI DDOS</h1>
+                <p class="">Cung cấp công cụ hỗ trợ, bảo vệ hệ thống thông CNTT trước các nguy cơ tân công mạng. Các dịch vụ QTSC cung cấp gồm: Firewall cứng/ mềm; phòng chống tấn công từ chối dịch vụ phân tán, cảnh báo lỗ hổng, tư vấn an toàn thông tin</p>
+            </div>
+        </div>
+        <div class="col-sm-5 col-md-4">
+            <div class="clearfix-right">
+                <p><i class="fa fa-hand-o-right" aria-hidden="true"></i> Know  more About</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="container content-block">
+            <p class="title-block">Ưu đãi đặc biệt</p>
+            <p class="block">QTSC không chỉ cung cấp giá cả cạnh tranh, hỗ trợ nhanh và mạng chất lượng cao mà còn cung cấp các giao dịch đặc biệt tuyệt vời hàng tuần mà bạn có thể thưởng thức!</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid services">
+    <div class="container">
+        <div class="row">
+            <div class="content-block">
+                <p class="title-block1">BẢNG GIÁ DỊCH VỤ ANTI DDOS</p>
+                <p class="block">Đăng kí ngay để trải nghiệm hoặc tùy biến cấu hình dịch vụ bạn mong muốn!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container sp-package">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="sp-packges-grid">
+                    <div class="sp-strip">
+                        <p >DDOS Filter  Small</p>
+                        <h5>
+                            200.000
+                            <span class="per-month"><sup>VND</sup>/THANG</span>
+                        </h5>
+                        <ul class="list-sp">
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> TCP SYN: <span class="text-bold"> 15.500pps</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                        </ul>
+                        <div class="sp-strip-1"><p><a href="#" class="p1-signup"> Sign Up</a></p></div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="sp-packges-grid">
+                    <div class="sp-strip">
+                        <p >DDOS Filter  Plus</p>
+                        <h5>
+                            350.000
+                            <span class="per-month"><sup>VND</sup>/THANG</span>
+                        </h5>
+                        <ul class="list-sp">
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> TCP SYN: <span class="text-bold"> 15.500pps</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                        </ul>
+                        <div class="sp-strip-1"><p><a href="#" class="p1-signup"> Sign Up</a></p></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="sp-packges-grid">
+                    <div class="sp-strip">
+                        <p >DDOS Filter  Custom</p>
+                        <h5>
+                            500.000
+                            <span class="per-month"><sup>VND</sup>/THANG</span>
+                        </h5>
+                        <ul class="list-sp">
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> TCP SYN: <span class="text-bold"> 15.500pps</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                            <li><i class="fa fa-chevron-right" aria-hidden="true"></i> HTTP Flood Concurrent Session :<span class="text-bold"> 1.000</span></li>
+                        </ul>
+                        <div class="sp-strip-1"><p><a href="#" class="p1-signup"> Sign Up</a></p></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="content-block">
+                <p class="title-block1">BẢNG GIÁ DỊCH VỤ FIREWALL</p>
+                <p class="block">Dịch vụ FIREWALL mềm cao cấp đáp ứng được yêu cầu về bảo mật, chống hacker</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <div class="sp-packges-grid1">
+                        <div class="sp-strip"  style="width: 90%; margin: auto">
+                            <p >THUÊ FIREWALL - ADVANCE</p>
+                            <h5>
+                                1.000.000
+                                <span class="per-month"><sup>VND</sup>/THANG</span>
+                            </h5>
+                            <ul class="list-sp">
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Giải pháp Firewall :<span class="text-bold"> WAF (Firewall mềm)</span></li>
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Số tập luật áp dụng :<span class="text-bold"> Unlimited(40+)</span></li>
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Giới hạn băng thông (share) :<span class="text-bold"> 100Mbps</span></li>
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Antivirus, Antispam, Lọc web :<span class="text-bold"> Co</span></li>
+                            </ul>
+                            <div class="sp-strip-1"><p><a href="#" class="p1-signup1">Liên hệ</a></p></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="sp-packges-grid1">
+                        <div class="sp-strip" style="width: 90%; margin: auto">
+                            <p >THIẾT BỊ, GIẢI PHÁP AN NINH MẠNG</p>
+                            <h5>
+                                1.000.000
+                                <span class="per-month"><sup>VND</sup>/THANG</span>
+                            </h5>
+                            <ul class="list-sp">
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Giải pháp Firewall :<span class="text-bold"> WAF (Firewall mềm)</span></li>
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Số tập luật áp dụng :<span class="text-bold"> Unlimited(40+)</span></li>
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Giới hạn băng thông (share) :<span class="text-bold"> 100Mbps</span></li>
+                                <li><i class="fa fa-chevron-right" aria-hidden="true"></i> Antivirus, Antispam, Lọc web :<span class="text-bold"> Co</span></li>
+                            </ul>
+                            <div class="sp-strip-1"><p><a href="#" class="p1-signup1">Liên hệ</a></p></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="H_solution_section3" class="col-md-12">
+    <div class="middle_Section">
+        <div class="panel-heading" id="title">
+            <div class="panel-title">
+                <h2>VÌ SAO NÊN CHỌN QTSC</h2>
+                <p>Lựa chọn để thành công cùng nhà cung cấp dịch vụ IDC hàng đầu Việt Nam. QTSC cam kết mang đến cho bạn hạ tầng lý tưởng, dịch vụ tận tâm</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="H-solution_section6" class="col-md-12">
+    <div class="middle_Section">
+        <div class="row" id="content1">
+            <div class="col-md-3 col-sm-6">
+                <p><i class="fa fa-5x fa-shield"></i></p>
+                <h3>Trung tâm dữ liệu</h3>
+                <p>5 trung tâm dữ liệu xây dựng theo tiêu chuẩn quốc tế Tier 3, với quy mô lớn và hiện đại nhất Việt Nam</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <p><i class="fa fa-5x fa-lock"></i></p>
+                <h3>An toàn thông tin</h3>
+                <p>Đảm bảo sao lưu định kỳ 100% hệ thống, không có sự xâm nhập thành công nào vào hệ thống. Bảo mật mọi thông tin</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <p><i class="fa fa-5x fa-life-ring"></i></p>
+                <h3>Hỗ trợ 24/7</h3>
+                <p>Đội ngũ IT chuyên môn cao, chăm sóc khách hàng 24/7 sẵn sàng cho mọi tình huống, giải quyết mọi vấn đề của bạn</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <p><i class="fa fa-5x fa-university"></i></p>
+                <h3>Hỗ trợ 24/7</h3>
+                <p> Hạ tầng lý tưởng, giải pháp công nghệ, cấu hình mạnh mẽ với giá cả rẻ nhất thị trường</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Swiper -->
+
+<div class="content-block">
+        <p class="title-block1">KHÁCH HÀNG TIÊU BIỂU</p>
+        <p class="block">Hơn cả  một nhà cung cấp, QTSC là người đồng dành uy tín của mọi doanh nghiệp</p>
+</div>
+
+<div class="container" style=" height: auto; margin-bottom: 30px">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="sectimg " src="img/sec7a.jpg"></div>
+            <div class="swiper-slide"><img class="sectimg " src="img/sec7b.png"></div>
+            <div class="swiper-slide"><img class="sectimg " src="img/sec7c.jpg"></div>
+            <div class="swiper-slide"><img class="sectimg " src="img/sec8d.png"></div>
+            <div class="swiper-slide"><img class="sectimg " src="img/sec8e.jpg"></div>
+            <div class="swiper-slide"><img class="sectimg" src="img/sec8f.png"></div>
+            <div class="swiper-slide"><img class="sectimg" src="img/sec8g.png"></div>
+            <div class="swiper-slide"><img class="sectimg" src="img/sec8h.png"></div>
+            <div class="swiper-slide"><img class="sectimg" src="img/sec8l.png"></div>
+            <div class="swiper-slide"><img class="sectimg" src="img/sec8m.png"></div>
+            <div class="swiper-slide"><img class="sectimg" src="img/sec8n.png"></div>
+        </div>
+        <!-- Add Pagination -->
+        <!--<div class="swiper-pagination"></div>-->
+        <!-- Add Arrows -->
+        <!--<div class="swiper-button-next"></div>-->
+        <!--<div class="swiper-button-prev"></div>-->
+    </div>
+</div>
+<div id="C_cloud_section6">
+    <div class="middle_Section">
+        <div class="panel-heading C_cloud_part_transfrom">
+            <div class="panel-title">
+                <h1>DỊCH VỤ TỐT TRÊN HẠ TẦNG TỐT</h1>
+                <p>Sử dụng và chi trả theo nhu cầu sử dụng. Khả năng nâng cấp/hạ cấp linh hoạt giúp hạn chế lãng phí tài nguyên</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-5 C_cloud_part_transfrom">
+                <div class="C_cloud">
+                    <div class="C_cloud_S6_Document">
+                        <h3>Triển khai siêu tốc</h3>
+                        <p>
+                            Triển khai máy chủ ảo nhanh chóng trong vài click chuột, với công cụ quản trị và tài nguyên sẵn có
+                        </p>
+                    </div>
+                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa fa-rocket fa-4x"></i></div>
+                </div>
+                <div >
+                    <div class="C_cloud_S6_Document">
+                        <h3>Quản lý dễ dàng</h3>
+                        <p>
+                            Hệ thống quản trị trên nền web, giao diện thân thiện, tích hợp nhiều tính năng cho phép admin tự thao tác
+                        </p>
+                    </div>
+                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-cubes fa-3x"></i></div>
+                </div>
+                <div class="C_cloud">
+                    <div class="C_cloud_S6_Document">
+                        <h3>Bảo mật tối ưu</h3>
+                        <p>
+                            Công nghệ VXLAN tạo các mạng ảo độc lập. Firewall ảo hiệu suất cao, đầy đủ tính năng (VPN, Loadbalancer, NAT…)
+                        </p>
+                    </div>
+                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-user-secret fa-4x"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-2 C_cloud_part_transfrom">
+                <div class="col-md-12" >
+                    <div><i class="fa fa-linux" aria-hidden="true"></i></div>
+                    <div><i class="fa fa-windows" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-5 C_cloud_part_transfrom">
+                <div class="C_cloud">
+                    <div class="C_cloud_S6_Logo">
+                        <i class="fa  fa-lg  fa-shopping-cart fa-3x"></i></div>
+                    <div class="C_cloud_S6_Document">
+                        <h3>Mở rộng linh hoạt</h3>
+                        <p>
+                            Mở rộng nhanh khi có nhu cầu và hạ cấp (CPU, RAM) khi không cần sử dụng nhiều tài nguyên
+                        </p>
+                    </div>
+                </div>
+                <div >
+                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-shield fa-3x"></i></div>
+                    <div class="C_cloud_S6_Document">
+                        <h3>An toàn dữ liệu</h3>
+                        <p>
+                            Dữ liệu lưu trữ tập trung trên hệ thống SAN. Máy chủ ảo hoạt động ổn định ngay cả khi có 1 máy chủ vật lý bị lỗi
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="C_cloud_S6_Logo"><i class="fa  fa-lg  fa-server fa-3x"></i></div>
+                    <div class="C_cloud_S6_Document">
+                        <h3>Cấu hình mạnh mẽ</h3>
+                        <p>
+                            Hạ tầng phần cứng và giải pháp công nghệ từ các nhà cung cấp hàng đầu: VMWare, Cisco, NetApp, IBM, EMC,…
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js.map"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/haipd-js.js"></script>
+</html>

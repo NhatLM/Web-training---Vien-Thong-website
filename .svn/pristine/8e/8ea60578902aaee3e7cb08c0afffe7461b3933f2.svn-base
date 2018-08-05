@@ -1,0 +1,194 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.clearfix{
+
+    background-image: url("../img/bg-inner-sportlight.jpg");
+}
+.clearfix-left{
+    padding-left:50px;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.clearfix-left p{
+    padding-top: 10px;
+}
+
+.clearfix-right {
+    padding-top: 80px;
+    text-align: center;
+}
+.clearfix-right p {
+    max-width: 270px;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    background: white;
+    margin-bottom: 10px;
+}
+.clearfix-right p:hover{
+    color: red;
+    cursor: pointer;
+}
+.btnknow{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.btnknow:hover{
+    color: red;
+
+}
+
+.content-block{
+    text-align: center;
+}
+.title-block{
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #797979;
+}
+.title-block1{
+    font-size: 32px;
+    padding-top: 60px;
+    color: #797979;
+}
+.block{
+    font-size: 16px;
+    color: #7C7F84;
+    padding-bottom: 40px;
+}
+
+.services{
+    background-image: url("../img/bg-server.jpg");
+    height: auto;
+    padding-bottom: 40px;
+}
+.sp-package{
+    width:96%;
+    float: left;
+    margin-left: 2%;
+    padding-bottom: 50px;
+}
+.sp-packges-grid {
+    width: 100%;
+}
+.sp-packges-grid .sp-strip p:first-of-type {
+    margin: 0px auto;
+    background: #111111;
+    position: relative;
+    max-width: 250px;
+    padding: 7px 15px 8px 15px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sp-strip>p:first-of-type:after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0px;
+    width: 0;
+    height: 0px;
+    border-style: solid;
+    border-color: #111111 transparent transparent #111111;
+    border-width: 7px;
+}
+.sp-strip h5{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    margin-top: -20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.per-month{
+    font-size: 16px;
+}
+
+.list-sp{
+    background-color: white;
+    margin-top: -10px;
+    padding-bottom: 60px;
+
+}
+.list-sp li{
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom:1px  dotted;
+    width: 90%;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.sp-packges-grid .sp-strip .sp-strip-1 p{
+    background: none;
+}
+.p1-signup {
+    position: relative;
+    bottom: 25px;
+    background: #DB1A21;
+    max-width: 200px;
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.p1-signup:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #f0343b;
+}
+
+/*----BẢNG GIÁ DỊCH VỤ FIREWALL----*/
+.sp-packges-grid1 .sp-strip p:first-of-type {
+    margin: 0px auto;
+    background: #111111;
+    position: relative;
+    max-width: 400px;
+    padding: 7px 15px 8px 15px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.p1-signup1 {
+    position: relative;
+    bottom: 25px;
+    background: #DB1A21;
+    max-width: 300px;
+    padding: 10px 80px 10px 80px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.p1-signup1:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #f0343b;
+}
+.sp-packges-grid1 .sp-strip .sp-strip-1 p{
+    background: none;
+}
+
+/*-----------------------------------------------*/
+

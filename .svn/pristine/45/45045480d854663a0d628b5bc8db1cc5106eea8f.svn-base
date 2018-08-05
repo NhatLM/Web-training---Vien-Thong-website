@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js.map"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/GianHang.js"></script>
+    <link rel="stylesheet" href="css/GianHang.css">
+    <script src="js/TableService.js"></script>
+    <link rel="stylesheet" href="css/TableService.css">
+    <link rel="stylesheet" href="css/Tn0Menu.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <a href="home.html"> <img class="menulogo" src="img/logo.png" style="margin-top: 15px ; height: 30px; float: left" ></a>
+        <div class="navbar-header">
+            <a href="#" style="color: blue" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar">Đăng kí dịch vụ</a>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" style="height: 100%; width: 30%;"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li></li>
+
+                <li><a href=""><i class="fa fa-server" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i> Thuê Máy Chủ
+                </a></li>
+                <li><a href=""><i class="fa fa-hospital-o" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i> Thuê Chỗ Đặt
+                </a></li>
+                <li><a href="ThueChoDat.html"><i class="fa fa-align-justify" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i> Thuê Tủ Crack
+                </a></li>
+                <li><a href=""><i class="fa fa-cloud" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i>Server Cloud
+                </a></li>
+                <li><a  href=""><i class="fa fa-mixcloud" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i>Private Cloud
+                </a></li>
+                <li><a  href=""><i class="fa fa-cloud-upload" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i>Storebox
+                </a></li>
+                <li><a  href=""><i class="fa fa-database" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i>Cloud Storage
+                </a></li>
+                <li><a href=""><i class="fa fa-floppy-o" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i>Cloud Backup
+                </a></li>
+                <li><a  href=""> <i class="fa fa-shield" aria-hidden="true" style="float: left; margin-top: 4px; margin-right: 4px"></i>Security</i>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="Giang_Hang" class="container">
+<div id="contain"></div>
+<div id="Thanh_Toan" class="table-responsive">
+    <table class="table table-hover table-bordered">
+        <tr style="background-color:#dddddd;">
+            <th>Gói Dịch Vụ</th>
+            <th>Số Lượng <i class="fa fa-times" aria-hidden="true"></i> Gía Tiền</th>
+            <th>Thành Tiền</th>
+        </tr>
+        <tr>
+            <td id="Name_pak"></td>
+            <td></td>
+            <td><span id="Price_pak" class="total">10.000.000đ</span></td>
+        </tr>
+        <tr>
+            <th style="background-color:#dddddd;">Dịch Vụ Bổ Sung</th>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Phí Khởi Tạo Dịch Vụ</td>
+            <td></td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Không Gian Bổ Sung Thêm 1U đầu Tiên</td>
+            <td class="price"><input type="checkbox" id="Thanh_Toan_key"> x <span>200.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Không Gian Bổ Sung Thêm 1U tiếp theo</td>
+            <td class="price" ><input type="number" id="Thanh_Toan_Block"  value="0" disabled="disabled"> x <span>300.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Thêm Một Địa Chỉ IP</td>
+            <td class="price"><input type="number" value="0"> x <span>150.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Cân Bằng Vận Tải Sever</td>
+            <td class="price"><input type="checkbox"> x  <span>300.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Tạo VLAN Cho Sever</td>
+            <td class="price"><input type="checkbox"> x  <span>200.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Dịch Vụ Firewall <strong>(1 rule)</strong></td>
+            <td class="price"><input type="number" value="0"> x  <span>150.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Bổ Sung Thêm Cổng Kết Nối Mạng Dự Phòng 100Mbps <strong>(1 cổng)</strong></td>
+            <td class="price"><input type="number" value="0"> x  <span>200.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td>Nâng Cấp Cổng Cắm Mạng Lên 1000Mbps <strong>(1 cổng)</strong></td>
+            <td class="price"><input type="number" value="0"> x  <span>800.000</span>đ</td>
+            <td><span class="total">0đ</span></td>
+        </tr>
+        <tr>
+            <td style="background-color: white"></td>
+            <th>Thành Tiền</th>
+            <td id="Thanh_Tien"></td>
+        </tr>
+        <tr>
+            <td style="background-color: white"></td>
+            <th>Thuế Vật Gía VAT (10%)</th>
+            <td id="VAT"></td>
+        </tr>
+        <tr>
+            <td style="background-color: white"></td>
+            <th>Tổng Cộng</th>
+            <td id="Total"></td>
+        </tr>
+    </table>
+    <div class="form-group">
+        <div class="col-sm-12 Thanh_Toan_Contain_btn">
+            <button type="" id="Thanh_Toan_next" class="btn btn-primary Thanh_Toan_btn">Hoàn Tât</button>
+            <button type="" id="Thanh_Toan_ComeBack" class="btn btn-link Thanh_Toan_btn">Quay Lại</button>
+        </div>
+    </div>
+</div>
+    <div id="Form_DK">
+        <h2 style="text-align:center;margin-bottom: 20px">Thông Tin Cá Nhân</h2>
+        <form class="form-horizontal" action="" id="dk">
+            <div class="form-group">
+                <label class="control-label col-sm-3" >Họ và Tên:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control" placeholder="Họ và tên">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3" >Số Điện Thoại:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control"placeholder="Số Điện Thoại">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3">Địa chỉ Email:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control"  placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3">Tên Công Ty:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control"  placeholder="Công Ty">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-3">Địa Chỉ:</label>
+                <div class="col-sm-7">
+                    <input type="text" class="form-control"  placeholder="Địa Chỉ">
+                </div>
+            </div>
+            <div class="form-group">
+                <div style="">
+                    <button type="submit" id="finish" class="btn">Đăng Ký</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>

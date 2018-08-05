@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CloudBackup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link rel="stylesheet" href="css/Tn0Menu.css">
+    <link rel="stylesheet" href="css/Tn0Home.css">
+    <link rel="stylesheet" href="css/Tn0Footer.css">
+    <link rel="stylesheet" href="css/Contact.css">
+    <link rel="stylesheet" href="css/hai-cloudbakup.css">
+
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js.map"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
+
+</head>
+
+<body>
+<header>
+    <div class="row justify-content-center" id="header1">
+        <div class="header1">
+            <div class="menutag1left">
+                <div class="menutag1leftag">
+                    <a href="home.html" class="menutag1lefa"><i class="fa">&#xf015;</i></a>
+                </div>
+                <div class="menutag1leftag">
+                    <a href="" class="menutag1lefa">Công Nghệ</a>
+                </div>
+                <div class="menutag1leftag">
+                    <a href="" class="menutag1lefa">Khuyến Mãi</a>
+                </div>
+                <div class="menutag1leftag">
+                    <a href="" class="menutag1lefa">Địa Điểm</a>
+                </div>
+                <div class="menutag1leftag" style="border: none">
+                    <a href="lienHe.html" class="menutag1lefa">Liên Hệ</a>
+                </div>
+            </div>
+            <!--choose language-->
+            <div class="menutag1right2">
+                <div class="languageChosen">
+                    <div class="languageAlter">
+                        <div class="flag" style="background: url(img/vn.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                        <span>VietNam</span>
+                    </div>
+                    <div class="dropIcon"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="languageList">
+                    <ul>
+                        <li class="language">
+                            <div class="flag" style="background: url(img/vn.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                            <span>VietNam</span>
+                        </li>
+                        <li class="language">
+                            <div class="flag" style="background: url(img/jp.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                            <span>Japanese</span>
+                        </li>
+                        <li class="language">
+                            <div class="flag" style="background: url(img/us.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                            <span>English</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--search box-->
+            <div class="menutag1right1">
+                <input type="text" value="Tìm kiếm..." />
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center" id="header2">
+        <div class="header2">
+            <div class="menutag2left">
+                <img src="img/logo13.png">
+            </div>
+            <div class="menutag2right">
+                <div class="menutag2rightcir">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <b class="tagb">Email</b>
+                <p class="tagp">qtsc@qtsc.com.vn</p>
+            </div>
+            <div class="menutag2right">
+                <div class="menutag2rightcir">
+                    <i class="fa fa-fax"></i>
+                </div>
+                <b class="tagb">Fax</b>
+                <p class="tagp">(84-28) 3715 5985</p>
+            </div>
+            <div class="menutag2right">
+                <div class="menutag2rightcir">
+                    <i class="fa fa-volume-control-phone"></i>
+                </div>
+                <b class="tagb">Tel</b>
+                <p class="tagp">(84-28) 3715 8999</p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center" id="header3">
+        <div class="header3">
+            <div id="warptag3" class="warptag3">
+                <div class="menutag3">
+                    <a href="home.html" class="menutaga"><i class="fa">&#xf015;</i></a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href="ThueMayChu.html" class="menutaga">THUÊ MÁY CHỦ</a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href="ThueChoDat.html" class="menutaga">THUÊ CHỖ ĐẶT MÁY CHỦ</a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href="ThueTuRack.html" class="menutaga">THUÊ TỦ CRACK</a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href="" class="menutaga">CLOUD BASE</a>
+                </div>
+                <div class="dropdownmn">
+                    <a href="CloudSever.html">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Server Cloud</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="PrivateCloud.html">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Private Cloud</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="CloudStorage.html">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Cloud Storage</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Store Box</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="CloudBackup.html">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Cloud Backup</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href="Security.html" class="menutaga">SECURITY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--navigation menu for header3-->
+    <div id="navmenu3">
+        <div class="navmenu3_item" id="navmenu3_btn" data-target="#navmenu3_content">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="navmenu3_item">
+            <h1>DANH MỤC</h1>
+        </div>
+
+        <!--drop menu for header3-->
+        <div id="navmenu3_content">
+            <ul>
+                <li class="navmenu3_submenu">
+                    <a href="ThueMayChu.html">THUÊ MÁY CHỦ</a>
+                </li>
+
+                <li class="navmenu3_submenu">
+                    <a href="ThueChoDat.html">THUÊ CHỖ ĐẶT MÁY CHỦ</a>
+                </li>
+
+                <li class="navmenu3_submenu">
+                    <a href="ThueTuRack.html">THUÊ TỦ RACK</a>
+                </li>
+
+                <li class="navmenu3_submenu navmenu3_drop" data-target="#submenu_cloudbase">
+                    <a href="">CLOUD BASE</a>
+                    <div class="navmenu3_dropIcon">
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="navmenu3_submenu" id="submenu_cloudbase">
+                        <ul>
+                            <li class="navmenu3_submenu">
+                                <a href="CloudServer.html">Server Cloud</a>
+                            </li>
+
+                            <li class="navmenu3_submenu">
+                                <a href="PrivateCloud.html">Private Cloud</a>
+                            </li>
+
+                            <li class="navmenu3_submenu">
+                                <a href="CloudStorage.html">Cloud Storage</a>
+                            </li>
+
+                            <li class="navmenu3_submenu">
+                                <a href="#">Store Box</a>
+                            </li>
+
+                            <li class="navmenu3_submenu" style="border-bottom: none">
+                                <a href="CloudBackup.html">Cloud Backup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="navmenu3_submenu">
+                    <a href="Security.html">SECURITY</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+
+<div class="container-fluid clearfix" style="height: auto;width: 100%; float: left; background-color: white;">
+    <div class="row">
+        <div class="col-sm-8 col-md-9 ">
+            <div class="clearfix-left">
+                <p class="title-banner">Backup</p>
+                <p class="title-banner-1">Protect your data with a cloud-based backup as a service
+                </p>
+                <p>Keep your data in Azure and on-premises safe. Backup supports VMware and Hyper-V
+                    virtual machines running on Linux and Windows, as well as physical Windows Servers.
+                </p><br>
+                <a class="butt">Get started </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid" style="height: auto;width: 100%; float: left; background-color: white">
+    <div class="row">
+        <div class="container content-block" style="border-bottom: 1px solid #BDBDBD;height: auto; padding-bottom:30px;padding-top: 50px;">
+            <div data-wow-delay="1s" class="wow bounceInRight">
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-4" style="height: auto">
+                        <img src="img/reduce-costs.svg" class="canhgiua">
+                    </div>
+                    <div class="col-sm-12 col-md-8" style="height:auto">
+                        <div class="title-content">Giảm chi phí không cần thiết</div>
+                        <p>Là dịch vụ trả tiền khi bạn truy cập, Backup giúp bạn dễ dàng chọn và chọn dữ liệu bạn muốn bảo vệ,
+                            miễn là bạn muốn bảo vệ nó. Sao lưu được thiết kế để có hiệu quả về chi phí cho dù bạn quan tâm đến việc
+                            duy trì trong thời gian ngắn hoặc dài hạn.
+                            Và, bạn có thể khôi phục các máy ảo hoặc các tệp và thư mục cá nhân - ở Azure hoặc ngay tại chỗ nếu cần, miễn phí.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container content-block" style="border-bottom: 1px solid #BDBDBD;height: auto;padding-bottom:30px;padding-top: 30px;">
+            <div data-wow-delay="1s" class="wow bounceInLeft">
+            <div class="row">
+                <div class="col-sm-12 col-md-8" style="height:auto">
+                    <div class="title-content">Triển khai dễ dàng</div>
+                    <p>Sử dụng Sao lưu trong Azure và tại chỗ, cùng với Windows, Linux, VMware và Hyper-V.
+                        Sao lưu tự động phát hiện máy ảo VMware tại chỗ của bạn và kết nối chúng với Azure.
+                        Ba lần nhấp chuột và các máy ảo Azure của bạn được sao lưu. Vì tất cả thông tin sao
+                        lưu của bạn nằm trong bảng điều khiển trung tâm, bạn có thể nhanh chóng quyết định xem cần
+                        khôi phục gì nếu mất dữ liệu bất ngờ. Và chỉ với một vài cú nhấp chuột,
+                        bạn sẽ có thể xuất các báo cáo Power BI về việc sao lưu của bạn - làm cho việc tuân thủ trở nên dễ dàng</p>
+                </div>
+                <div class="col-sm-12 col-md-4" style="height: auto">
+                    <img src="img/deploys-easily.svg" class="canhgiua">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container content-block" style="border-bottom: 1px solid #BDBDBD;height: auto;padding-bottom:30px;padding-top: 30px;">
+            <div data-wow-delay="1s" class="wow bounceInRight">
+                <div class="row">
+                <div class="col-sm-12 col-md-4" style="height: auto">
+                    <img src="img/protects-ransomware.svg" class="canhgiua">
+                </div>
+                <div class="col-sm-12 col-md-8" style="height:auto">
+                    <div class="title-content">Bảo vệ chống lại ransomware</div>
+                    <p>Thiết lập kiểm soát truy cập hạn chế để chỉ những người dùng được ủy quyền của bạn
+                        có thể thực hiện các thao tác sao lưu quan trọng. Bạn sẽ nhận được thông báo nếu Sao lưu phát hiện bất
+                        kỳ hoạt động đáng ngờ nào trước khi dữ liệu của bạn bị xâm nhập. Bất kỳ sự xóa bỏ trái phép các bản sao lưu của bạn sẽ được
+                        lưu giữ trong nhiều ngày, để bạn có thời gian để bảo vệ môi trường và bắt đầu quá trình khôi phục.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="float:left; height: auto;padding-top: 30px; background-color: white;">
+    <div class="title-h2" style="padding-top: 50px; padding-bottom: 30px">ƯU THẾ VƯỢT TRỘI VỚI CLOUD BACKUP SERVICES
+    </div>
+    <div class="container" style="margin-top: 30px;">
+        <div class="rơw" style="">
+            <div data-wow-delay="0.8s" class="wow fadeIn">
+                <div class="col-sm-6 col-md-4" style="height:auto; float: left; ">
+                    <div class="noibat">
+                        <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                    </div>
+                    <div class="noibat-content">
+                        <p class="title-noibat">Lưu trữ đám mây không giới hạn</p>
+                        <p class="content-text-1">Tất cả các tệp của bạn, thậm chí các tệp video lớn, đều an toàn trong đám mây.
+                        </p>
+                        <p class="learnmore"><a href="learnmore">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+            <div data-wow-delay="1s" class="wow fadeIn">
+                <div class="col-sm-6 col-md-4" style="height: auto; float:left;">
+                    <div class="noibat">
+                        <i class="fa fa-skyatlas" aria-hidden="true"></i>
+                    </div>
+                    <div class="noibat-content">
+                        <p class="title-noibat">Tự động sao lưu</p>
+                        <p class="content-text-1">Cloud Backup Services luôn luôn bật, vì vậy bạn có thể tận hưởng sự an tâm.
+                        </p>
+                        <p class="learnmore"><a href="learnmore">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+            <div data-wow-delay="1.2s" class="wow fadeIn">
+                <div class="col-sm-6 col-md-4" style="height: auto; float:left;">
+                    <div class="noibat">
+                        <i class="fa fa-repeat" aria-hidden="true"></i>
+                    </div>
+                    <div class="noibat-content">
+                        <p class="title-noibat">Phục hồi tập tin dễ dàng</p>
+                        <p class="content-text-1">Khôi phục một tệp hoặc tất cả chúng chỉ với một vài cú nhấp chuột.
+                        </p>
+                        <p class="learnmore"><a href="learnmore">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="float:left; height: auto;padding-top: 20px;padding-bottom: 40px; background-color: white;">
+    <div class="container" style="margin-top: 30px;">
+        <div class="rơw" style="">
+            <div data-wow-delay="1s" class="wow fadeIn">
+                <div class="col-sm-6 col-md-4" style="height:auto; float: left; ">
+                    <div class="noibat">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </div>
+                    <div class="noibat-content">
+                        <p class="title-noibat">Truy cập mọi lúc mọi nơi</p>
+                        <p class="content-text-1">Quản trị việc lưu trữ và phục hồi hệ thống của bạn từ bất kỳ thiết bị hay trình duyệt nào.
+                        </p>
+                        <p class="learnmore"><a href="learnmore">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+            <div data-wow-delay="1.2s" class="wow fadeIn">
+                <div class="col-sm-6 col-md-4" style="height: auto; float:left;">
+                    <div class="noibat">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </div>
+                    <div class="noibat-content">
+                        <p class="title-noibat">An toàn tuyệt đối</p>
+                        <p class="content-text-1">Dịch vụ Cloud Backup Services mã hóa các tệp của bạn ở mọi bước.</p>
+                        <p class="learnmore"><a href="learnmore">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+            <div data-wow-delay="1.4s" class="wow fadeIn">
+                <div class="col-sm-6 col-md-4" style="height: auto; float:left; ">
+                    <div class="noibat">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <div class="noibat-content">
+                        <p class="title-noibat">Giao diện thân thiện</p>
+                        <p class="content-text-1">Giao diện quản trị thân thiện và sử dụng dễ dàng tích hợp đầy đủ tính năng.
+                        </p>
+                        <p class="learnmore"><a href="learnmore">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--section3 slide -->
+<div class="choDat_sections choDat_section3" style="background-image: url('img/bg-partner.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="choDat_section3_slider">
+                    <div class="container" style=" height: auto; margin-bottom: 30px">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="sectimg " src="img/sec7a.jpg"></div>
+                                <div class="swiper-slide"><img class="sectimg " src="img/sec7b.png"></div>
+                                <div class="swiper-slide"><img class="sectimg " src="img/sec7c.jpg"></div>
+                                <div class="swiper-slide"><img class="sectimg " src="img/sec8d.png"></div>
+                                <div class="swiper-slide"><img class="sectimg " src="img/sec8e.jpg"></div>
+                                <div class="swiper-slide"><img class="sectimg" src="img/sec8f.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a id="myBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<div class="warpfooter" style="; background-image: url('img/bg-footer.jpg')">
+    <div class="row justify-content-center " style="margin: 0px">
+        <div class="footer">
+            <div class="footerlogo">
+                <img src="img/logo-white1.png">
+            </div>
+            <div class="footerif">
+                <p><b class="footertd">CÔNG TY TNHH MỘT THÀNH VIÊN PHÁT TRIỂN<b class="footera"> CÔNG VIÊN PHẦN MỀM QUANG TRUNG</b></b>
+                </p>
+                <div class="info">
+                    <i class="fa fa-map-marker footeri"></i> Nhà 3, Công viên phần mềm Quang Trung, Phường Tân Chánh Hiệp, Quận 12, Tp. Hồ Chí Minh, Việt Nam
+                    <br><i class="fa fa-phone footeri"></i> (84-28) 3715 8999 <i class="fa fa-phone footeri" style="margin-left: 10px; border-left:1px solid white; padding-left: 10px "></i> (84-28) 3715 5985
+                    <br><i class="fa fa-envelope footeri"></i><a class="footersa" href=""> qtsc@qtsc.com.vn</a>
+                    <i class="fa fa-link footeri" style="margin-left: 10px; border-left:1px solid white; padding-left: 10px "></i><a class="footersa" href=""> www.qtsc.com.vn</a>
+                </div>
+                <div class="info">
+                    <i class="fa fa-angle-right footeri"></i>
+                    <i class="fa fa-angle-right footeri"></i> Người chịu trách nhiệm chính
+                    <br><b style="color: white">Lâm Nguyễn Hải Long - Giám đốc</b>
+                    <br><i class="fa fa-angle-right footeri"></i>
+                    <i class="fa fa-angle-right footeri"></i> Giấy phép số 21/GP-STTTT do Sở Thông tin và Truyền thông, cấp ngày 31/05/2017
+                </div>
+            </div>
+            <div class="footerlink">
+                <b style="color: white; font-size: 13px">Liên Kết Website</b> <br> <br>
+                <div class="footercir"> <a class="footersa" href="https://www.facebook.com/quangtrungsoftwarecity"><i  class="fa">&#xf09a;</i></a></div>
+                <div class="footercir"><a class="footersa" href="https://twitter.com/QTSC"><i class="fa">&#xf099;</i></a></div>
+                <div class="footercir"><a class="footersa" href="https://plus.google.com/+CôngviênphầnmềmQuangTrung"><i class="fa">&#xf0d5;</i></a></div>
+                <div class="footercir"><a class="footersa" href="https://www.youtube.com/user/ThuyQTSC/videos"><i  class="fa">&#xf16a;</i></a></div>
+                <br>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">© Copyright - 2018 : All Rights Reserved. &amp; Designed by <a class="footersa" href="http://hisoft.vn/">HISOFT</a></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/Tn0Menu.js"></script>
+<script src="js/Contact.js"></script>
+<script src="js/Tn0ThueChoDat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="js/haipd-js.js"></script>
+
+</body>
+</html>

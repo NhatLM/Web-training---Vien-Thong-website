@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thuê Chỗ Đặt Máy Chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link rel="stylesheet" href="css/Tn0Menu.css">
+    <link rel="stylesheet" href="css/Tn0ThueChoDat.css">
+    <link rel="stylesheet" href="css/Tn0Footer.css">
+    <link rel="stylesheet" href="css/Q&A.css">
+</head>
+<body>
+<header class="menu">
+    <div class="center">
+        <div class="logowarp">
+            <div class="row justify-content-center">
+                <img class="menulogo" src="img/logo.png" >
+            </div>
+        </div>
+        <div class="tagwarp">
+
+            <div class="menutag">
+                <a href="LienHe.html" target="_self" style="text-decoration:none; color:white"><b>LIÊN HỆ</b></a>
+            </div>
+            <div class="menutag">
+                <a href="KhuyenMai.html" target="_self" style="text-decoration:none; color:white"><b>KHUYẾN MÃI</b></a>
+            </div>
+            <div class="menutag"><b>CÔNG NGHỆ</b></div>
+            <div class="menutag">
+                <b>CLOUD BASE <i style="color: orange" class="fa">&#xf107;</i></b>
+                <div class="dropdownmn">
+                    <a href="CloudSever.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-cloud" aria-hidden="true"></i>
+                            <b>Server Cloud</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="PrivateCloud.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-mixcloud" aria-hidden="true"></i>
+                            <b>Private Cloud</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                            <b>Storebox</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-database" aria-hidden="true"></i>
+                            <b>Cloud Storage</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-floppy-o" aria-hidden="true"></i>
+                            <b>Cloud Backup</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+                            <b>Security</b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="menutag">
+                <b>MÁY CHỦ <i style="color: orange" class="fa">&#xf107;</i></b>
+                <div class="dropdownmn">
+                    <a href="ThueMayChu.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-server" aria-hidden="true"></i>
+                            <b> Thuê Máy Chủ</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="ThueChoDat.html">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                            <b> Thuê Chỗ Đặt Máy Chủ</b>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <i class="fa fa-align-justify" aria-hidden="true"></i>
+                            <b>Thuê Tủ Crack</b>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="menutag active"><b><a href="home.html" style="text-decoration: none ; color: white"> <i class="fa">&#xf015;</i> TRANG CHỦ</a></b></div>
+        </div>
+    </div>
+</header>
+<div class="navmenu" id="NavMenu">
+
+    <div class="row">
+        <img id="menulogo" src="img/logo.png">
+        <span onclick="openCloseNav()">&#9776;</span>
+    </div>
+
+    <div id="navmenuin">
+        <a class="menuintag" href="home.html">Trang Chủ</a>
+        <div class="dropdown">
+            <a class="menuintag" href="#">Máy Chủ<i class="fa fa-angle-down submnDropbtn" aria-hidden="true"  data-target="#submenuMaychu"></i></a>
+            <div class="submenu1" id="submenuMaychu">
+                <a class="menuintag" href="ThueMayChu.html"><i class="fa fa-server" aria-hidden="true" style="float: left; margin-top: 4px"></i> Thuê Máy Chủ
+                </a>
+                <a class="menuintag" href="ThueChoDat.html"><i class="fa fa-hospital-o" aria-hidden="true" style="float: left; margin-top: 4px"></i>Thuê Chỗ Đặt
+                </a>
+                <a class="menuintag" href="ThueChoDat.html"><i class="fa fa-align-justify" aria-hidden="true" style="float: left; margin-top: 4px"></i>Thuê Tủ Crack
+                </a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="menuintag" href="#">Cloud Base<i class="fa fa-angle-down submnDropbtn" aria-hidden="true" data-target="#submenuCloudbase"></i></a>
+            <div class="submenu1" id="submenuCloudbase">
+                <a class="menuintag" href="CloudSever.html"><i class="fa fa-cloud" aria-hidden="true" style="float: left; margin-top: 4px"></i>Server Cloud
+                </a>
+                <a class="menuintag" href="PrivateCloud.html"><i class="fa fa-mixcloud" aria-hidden="true" style="float: left; margin-top: 4px"></i>Private Cloud
+                </a>
+                <a class="menuintag" href=""><i class="fa fa-cloud-upload" aria-hidden="true" style="float: left; margin-top: 4px"></i>Storebox
+                </a>
+                <a class="menuintag" href=""><i class="fa fa-database" aria-hidden="true" style="float: left; margin-top: 4px"></i>Cloud Storage
+                </a>
+                <a class="menuintag" href=""><i class="fa fa-floppy-o" aria-hidden="true" style="float: left; margin-top: 4px"></i>Cloud Backup
+                </a>
+                <a class="menuintag" href=""> <i class="fa fa-shield" aria-hidden="true" style="float: left; margin-top: 4px"></i>Security</i>
+                </a>
+            </div>
+        </div>
+        <a class="menuintag" href="KhuyenMai.html">Khuyến mãi</a>
+        <a class="menuintag" href="#">Công nghệ</a>
+        <a class="menuintag" href="LienHe.html">Liên Hệ</a>
+    </div>
+</div>
+
+    <div class="Tn0Price">
+        <p style="font-size: 24px; text-align: center"> THUÊ CHỖ ĐẶT MÁY CHỦ TẠI </p>
+        <div class="Tn0Pricewarp">
+            <div class="row justify-content-center" style="margin: 0px">
+                <div class=" section4div" >
+                    <div class="header">
+                                        <b>COLO 1</b>
+                                        <p>1.690.000</p>
+                                    </div>
+                    <div class="content">
+                                        <ul>
+                                            <li>Không gian: &nbsp;<b>1U</b></li>
+                                            <li>Công suất: &nbsp;<b>300W</b></li>
+                                            <li> Lưu lượng: &nbsp;Unlimited</li>
+                                            <li>Số địa chỉ IP: &nbsp;<b>1</b></li>
+                                            <li>Băng thông: &nbsp;<b>100Mbps|10Mbps</b></li>
+                                        </ul>
+                                        <a href="GianHang.html"><button class="buybtn">ĐẶT MUA</button></a>
+                                    </div>
+                </div>
+                <div class=" section4div" >
+
+                    <div class="content">
+                        <ul>
+                            <li>Không gian : &nbsp;<b>1U – 2U</b></li>
+                            <li>Công suất : &nbsp;<b>300W</b></li>
+                            <li>UPS : &nbsp;<b>Có</b></li>
+                            <li>UPS : &nbsp;<b>Có</b></li>
+                            <li>UPS : &nbsp;<b>Có</b></li>
+                            <li> Lưu lượng: &nbsp;<b>Unlimited</b></li>
+                            <li>Số địa chỉ IP: &nbsp;<b>1</b></li>
+                            <li>Băng thông: &nbsp;<b>100Mbps|10Mbps</b></li>
+                        </ul>
+                    </div>
+                    <div class="header">
+                        <b>1U-2U</b>
+                        <p>1.200.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Tn0Intro">
+        <p style="font-size: 24px; text-align: center"> CHO THUÊ KHÔNG GIAN DỮ LIỆU</p>
+        <p style="font-size: 16px; text-align: center"> Cung cấp không gian dành riêng, có thể cách ly bằng lồng sắt trong khu vực triển khai dịch vụ tại trung tâm dữ liệu với các tủ Rack dành riêng để lắp đặt hệ thống thiết bị
+        </p>
+        <div class="row justify-content-center">
+            <div class="Tn0Introdetail">
+                <img src="img/intro1.png" class="Tn0Introicon">
+
+                <h5>Chất lượng đường truyền ổn định</h5>
+                <p>Đường truyền Internet nhanh, ổn định và độ khả dụng cao. Băng thông lớn, đảm bảo hoạt động liên tục và thông suốt.
+                </p>
+            </div><div class="Tn0Introdetail">
+                <img src="img/intro2.png" class="Tn0Introicon">
+                <h5>Hạ tầng lý tưởng</h5>
+                <p>Hạ tầng trung tâm dữ liệu theo tiêu chuẩn quốc tế, đạt cấp độ TIER 3. Nguồn điện đảm bảo dự phòng, liên tục và ổn định.
+                </p>
+            </div>
+            <div class="Tn0Introdetail">
+                <img src="img/intro3.png" class="Tn0Introicon">
+                <h5>Bảo mật đa tầng</h5>
+                <p>Khu vực đặt server được bảo vệ nghiêm ngặt và có kiểm soát an ninh, có hệ thống Camera giám sát liên tục 24/24.
+                </p>
+            </div>
+            <div class="Tn0Introdetail">
+                <img src="img/intro4.png" class="Tn0Introicon">
+                <h5>Hỗ trợ khách hàng 24 giờ / 7 ngày</h5>
+                <p>Triển khai dịch vụ đơn giản, nhanh chóng. Đội ngũ IT chuyên nghiệp, chăm sóc và hỗ trợ giải đáp khách hàng 24h/7</p>
+            </div>
+            <div class="Tn0Introdetail">
+                <img src="img/intro5.png" class="Tn0Introicon">
+                <h5>Ưu đãi dịch vụ</h5>
+                <p>Miễn phí 3 tháng đầu cho các dịch vụ an ninh thông tin kèm theo.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="qaSection">
+        <div class="row justify-content-center" style="margin: 0px">
+            <div class="qaSectionrow">
+                <div class="qaDiv">
+                    <h1>&mdash; CÂU HỎI &mdash;</h1>
+                    <div class="qaDivSmall" style="margin-top: 20px;">
+                        <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>Dịch vụ cho thuê chỗ đặt máy chủ-colocation là gì?
+                        <div class="dropbtn" data-target="#dropcontent1">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="qaDivSmall dropdownContent" id="dropcontent1">
+                        Dịch vụ <a href="" style="text-decoration:none;color:#09F;">thuê chỗ đặt máy chủ</a> – colocation của QTSC Telecom là dịch vụ cung cấp không gian theo unit, tủ rack hay khu riêng (cage) trong phòng máy theo tiêu chuẩn quốc tế Tier 3 (dự phòng N+1); độ sẵn sàng 99,98%; kết nối internet tốc độ cao; nguồn điện ổn định; nhiệt độ phòng máy được điều khiển chính xác bởi hệ thống điều hòa công nghiệp thiết kế riêng cho các trung tâm dữ liệu (Data Center) để khách hàng đặt hệ thống máy chủ và các thiết bị công nghệ thông tin khác.
+                    </div>
+
+                    <div class="qaDivSmall">
+                        <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>Không gian rack là gì?
+                        <div class="dropbtn" data-target="#dropcontent2">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="qaDivSmall dropdownContent" id="dropcontent2">
+                        Trong các trung tâm dữ liệu hoặc phòng máy các thiết bị được lắp đặt trong các tủ rack, thường là các rack 19 inch hoặc rack 23 inch. 19 inch hay 23 inch là chiều rộng của tủ rack (19 inch = 482.6 mm; 23 inch = 584.2 mm). Không gian trong các rack 19 inch và 23 inch, được tính bằng đơn vị (U), 1U = 1,75 inch = 44.45 mm là đơn vị mà các nhà sản xuất qui ước dùng để đo chiều cao của thiết bị lắp đặt trong tủ rack. Khi tài liệu ghi switch/hub/router/server 1U có nghĩa là chúng có chiều cao 44.45 mm. Kích thước của các thiết bị công nghệ thông tin thường được nhà sản xuất cung cấp dưới dạng bội số của 1U. Tủ rack thường gặp nhất là tủ rack có kích thước 42U.
+                    </div>
+
+                    <div class="qaDivSmall">
+                        <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>Dịch vụ cho thuê chỗ đặt máy chủ có ưu điểm gì?
+                        <div class="dropbtn" data-target="#dropcontent3">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="qaDivSmall dropdownContent" id="dropcontent3">
+                        <p>– Được tủy chọn không gian đặt và băng thông internet theo nhu cầu.</p>
+                        <p>– Máy chủ được đặt trong Trung tâm dữ liệu đạt tiêu chuẩn quốc tế.</p>
+                        <p>– cho thuê chỗ đặt máy chủ là dịch vụ khách hàng có thể thuê ngay không gian chỗ đặt, điện, điều hòa, băng thông internet có sẵn của QTSC Telecom.</p>
+                        <p>– Dịch vụ cho thuê chỗ đặt máy chủ hoạt động ổn định, liên tục nhờ các hệ thống điều hòa, UPS, máy phát điện dự phòng và chống sét, chống cháy.</p>
+                        <p>– Qúy khách có một kho tư liệu lớn với các yêu cầu kết xuất phức tạp cần đưa lên mạng Internet, áp dụng CNTT vào quản lý doanh nghiệp, xây dựng và quản trị hệ thống website, thương mại điện tử cho doanh nghiệp, hệ thống Email, cung cấp các dịch vụ trên mạng, các ứng dụng làm việc từ xa, quản lý CSDL giữa các chi nhánh (ERP, CRM…), các ứng dụng trực tuyến nội bộ hay liên quan đến tương tác giữa doanh nghiệp với khách hàng bên ngoài… thì việc sử dụng máy chủ riêng sẽ đáp ứng tốt nhất các yêu cầu này.</p>
+                        <p>– Data Center do QTSC Telecom khai thác và vận hành, là những Data Center lớn nhất Việt Nam – được kết nối đến nhiều ISP mang đến cho Khách hàng một dịch vụ kết nối Internet nhanh, ổn định và liên tục.</p>
+                        <p>– Tiết kiệm chi phí đầu tư ban đầu và chi phí vận hành.</p>
+                    </div>
+
+                    <div class="qaDivSmall">
+                        <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>Cổng thông tin khách hàng (portal) của QTSC Telecom là gì?
+                        <div class="dropbtn" data-target="#dropcontent4">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="qaDivSmall dropdownContent" id="dropcontent4">
+                        Cổng thông tin (portal) của QTSC Telecom là một công cụ để khách hàng đưa ra các yêu cầu hỗ trợ từ xa qua mạng internet bằng cách đăng nhập vào đường link: http://portal.viettelidc.com.vn. Mỗi nhân viên bảo trì của khách hàng có một tài khoản và mật khẩu riêng, sau khi được xác nhận mới được quyền tra cứu Network traffic, đăng ký khởi động lại máy hoặc tải các biểu mẫu đăng ký. Quy trình khách hàng yêu cầu hỗ trợ dịch vụ từ xa: Mọi chi tiết cần hỗ trợ xin liên hệ hotline 1800.8088
+                    </div>
+                </div>
+
+                <div class="qaDiv" style="padding-left:20px">
+                    <h1>&mdash; LIÊN HỆ &mdash;</h1>
+                    <div class="qaDivSmall qaInfo">
+                        <p style="float: left">
+                            <i class="fa fa-map-marker"></i>
+                            Phường Tân Chánh Hiệp , quận 12 , thành phố Hồ Chí Minh
+                            <br>
+                            <i class="fa fa-phone"></i>
+                            (84-28) 3715 5054<br>
+                            08.888.77.606<br>
+                            0932.03.03.63<br>
+                            08.888.77.607
+                            <br>
+                            <i class="fa fa-envelope"></i>
+                            <a class="footersa" href="">qtsc@qtsc.com.vn</a>
+                            <br>
+                            <i class="fa fa-link"></i>
+                            <a class="footersa" href="https://www.qtsc.com.vn/web/guest/home">www.qtsc.com.vn</a>
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="myBtn" title="Go to top" ><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    <div class="footers" style="background-image:url('img/LienHe.jpg');background-position: center">
+        <div class="row justify-content-center " style="margin: 0px">
+            <div class="center">
+                <div class="footercl" style="padding-right: 20px">
+                    <h5>CÔNG VIÊN PHẦN MỀM QUANG TRUNG</h5>
+
+                    <p style="float: left">
+                        <i class="fa fa-map-marker"></i>
+                        Phường Tân Chánh Hiệp , quận 12 , thành phố Hồ Chí Minh
+                        <br>
+                        <i class="fa fa-phone"></i>
+                        (84-28) 3715 5054<br>
+                        08.888.77.606<br>
+                        0932.03.03.63<br>
+                        08.888.77.607
+                        <br>
+                        <i class="fa fa-envelope"></i>
+                        <a class="footersa" href="">qtsc@qtsc.com.vn</a>
+                        <br>
+                        <i class="fa fa-link"></i>
+                        <a class="footersa" href="">www.qtsc.com.vn</a>
+                    </p>
+                </div>
+                <div class="footercl">
+                    <h5>HOSTING</h5>
+
+                    <p style="float: left">
+                        <a class="footersa" href="">Web Hosting</a>
+                        <br>
+                        <a class="footersa" href="">Email Hosting</a>
+                        <br>
+                        <a class="footersa" href="">Online Storage</a>
+                        <br>
+                        <a class="footersa" href="">Hosting Windows</a>
+                        <br>
+                        <a class="footersa" href="">Hosting giá rẻ</a>
+                    </p>
+                </div>
+                <div class="footercl">
+                    <h5>DỊCH VỤ</h5>
+
+                    <p style="float: left">
+                        <a class="footersa" href="">Thuê VPS giá rẻ</a>
+                        <br>
+                        <a class="footersa" href="">VPS chất lượng cao</a>
+                        <br>
+                        <a class="footersa" href="">Thuê Sever riêng</a>
+                        <br>
+                        <a class="footersa" href="">Thuê Cloud Server SSD</a>
+                        <br>
+                        <a class="footersa" href="">Thuê chỗ đặt Sever</a>
+                        <br>
+                        <a class="footersa" href="">Hội nghị truyền hinh</a>
+                        <br>
+                        <a class="footersa" href="">Thuê chỗ đặt Sever</a>
+                    </p>
+                </div>
+                <div class="footercl">
+                    <h5>THÔNG TIN</h5>
+
+                    <p style="float: left">
+                        <a class="footersa" href="">Quy định đổi trả - hoàn tiền</a>
+                        <br>
+                        <a class="footersa" href="">Chính sách bảo mật thông tin</a>
+                        <br>
+                        <a class="footersa" href="">Dịch vụ sao lưu dữ liệu</a>
+                        <br>
+                        <a class="footersa" href="">Tài liệu dịch vụ</a>
+                        <br>
+                        <a class="footersa" href="">Dịch vụ lưu trữ trực tuyến</a>
+                        <br>
+                        <a class="footersa" href="">Dịch vụ cloud backup</a>
+                    </p>
+                </div>
+                <div class="footercl">
+                    <h5>THUÊ MÁY CHỦ</h5>
+
+                    <p style="float: left">
+                        <a class="footersa" href="">Thuê máy chủ HP</a>
+                        <br>
+                        <a class="footersa" href="">Thuê máy chủ IBM</a>
+                        <br>
+                        <a class="footersa" href="">Thuê máy chủ supermicro</a>
+                        <br>
+                        <a class="footersa" href="">Thuê máy chủ tặng điện thoại</a>
+                        <br>
+                        <a class="footersa" href="">Lưu trữ trực tuyến</a>
+                        <br>
+                        <a class="footersa" href="">Colocation sever in Vietnam</a>
+                        <br>
+                        <a class="footersa" href="">Thuê Email Sever</a>
+                    </p>
+                </div>
+                <div class="footerc2">
+                    <p style="float:right">
+                        <a class="footersa" href="https://www.facebook.com/quangtrungsoftwarecity"><i  class="fa">&#xf09a;</i></a>
+                        <a class="footersa" href="https://twitter.com/QTSC"><i class="fa">&#xf099;</i></a>
+                        <a class="footersa" href="https://plus.google.com/+CôngviênphầnmềmQuangTrung"><i class="fa">&#xf0d5;</i></a>
+                        <a class="footersa" href="https://www.youtube.com/user/ThuyQTSC/videos"><i  class="fa">&#xf16a;</i></a>
+                    </p>
+                </div>
+                <div class="footerc3">
+                    <p>© Copyright - 2018 : All Rights Reserved. &amp; Designed by <a class="footersa" href="http://hisoft.vn/">HISOFT</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/Tn0Menu.js"></script>
+    <script src="js/Q&A.js"></script>
+</body>

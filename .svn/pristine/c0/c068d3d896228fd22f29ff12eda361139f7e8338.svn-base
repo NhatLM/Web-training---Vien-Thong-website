@@ -1,0 +1,5 @@
+$('.language').click(function(){
+    var content=$(this).html();
+    $('.languageAlter').html('');
+    $('.languageAlter').html(content);
+})

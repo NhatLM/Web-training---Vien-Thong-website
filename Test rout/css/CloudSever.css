@@ -1,0 +1,88 @@
+
+
+
+#C_cloud_section1 {  width: 100%;  position: relative;bottom: 50px;transition: 2s;opacity: 0}
+.C_cloud_section_transform{ transform: translateY(30px)}
+.middle_Section {  width: 80%;  max-width: 1000px;  margin: auto;  text-align: center}
+
+#C_cloud_section1 div[class="panel-body"]>p{  padding: 0px 0px 9px 0px; text-align: left;  }
+#C_cloud_section2{position: relative;bottom: 50px; transition: 2s;opacity: 0}
+#C_cloud_section2 .panel-heading:first-child .panel-title>h1{font-size: 40px;padding-bottom: 0px;margin-top: 60px;}
+#C_cloud_section2 >.middle_Section>.panel-heading>.panel-title> p {  color: #979797;font-size: 16px; margin-bottom: 25px;}
+#C_cloud_section2>.middle_Section>.row>.col-md-6>p:first-child{font-size: 12px;}
+#C_cloud_section2>.middle_Section>.row>.col-md-6>h3{font-size: 20px;}
+#C_cloud_section2>.middle_Section>.row>.col-md-6>p:last-of-type{font-size: 13px;padding-right: 10px;padding-left: 10px;}
+#C_cloud_section2>.middle_Section>.row>.col-md-6>button{background-color: #17a085;color: white}
+#C_cloud_section3 {  width: 100%;  }
+#C_cloud_section3 .panel-title >p{  color: #979797;font-size: 17px;       }
+#C_cloud_section3 .middle_Section>.panel-heading>.panel-body{padding-left: 0px;padding-right: 0px;}
+#C_cloud_section3 .panel-body>button:first-child{  width: 100%;  background-color: #16a085;  color: white;  height: 54px;  }
+.C_cloud_showandhidden{transition-delay: 0.5s;  animation-name:show_hidden;  animation-duration: 0.75s;  animation-iteration-count: 3;  }
+@keyframes show_hidden { 0%   {opacity: 1} 50%  {opacity: 0}  100% {opacity: 1}        }
+
+#C_cloud_section4>.middle_Section>.row>.col-md-3{height: 400px; margin-bottom: 10px;padding:5px;}
+#C_cloud_section4 .middle_Section{padding-right: 30px;padding-left: 30px;}
+/*#C_cloud_section4>.middle_Section>.row>.col-md-3:first-child{padding: 20px 30px 40px 0px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3:nth-child(2){padding: 20px 20px 40px 10px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3:nth-child(3){padding: 20px 10px 40px 20px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3:nth-child(4){padding: 20px 0px 40px 30px}*/
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div:first-child{width: 100%;height: 100%;background-color: #ececec;}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>p:first-child{  width: 100%;margin-bottom: 28px;height:34px;line-height:34px;background-color: #4491bd;color: white;font-size: 18px;font-weight: bold;}
+.divngu{width:80%;padding-top:20px; padding-bottom:20px;text-align:center; background:#16a085 ; color:white; font-weight:bold;margin-left:auto; margin-right:auto}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>ul{padding-left: 10px;list-style-type: none}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>ul>li{text-align: left;padding-bottom: 13px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>ul>li>i{color: #006dac}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>p:nth-of-type(2){  background-color: #901a11;color: white;font-size: 22px;margin-bottom: 25px;}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>p:nth-of-type(2)>sub,sup{font-size: 13px;}
+#C_cloud_section4>.middle_Section>.row>.col-md-3>div>button:last-child{background-color: #16a085;color: white;font-weight: bold;}
+#C_cloud_section4>.middle_Section>button:last-child{margin-top: 40px;margin-bottom:40px;padding-left:55px;padding-right:40px;padding-top:15px;padding-bottom:15px;background-color: #f39c13;color: white ;font-weight: 400;font-size: 17px;}
+#C_cloud_section5 {width: 100%;position: relative;bottom: 50px;transition: 2s;margin-bottom: 80px;opacity: 0}
+#C_cloud_section5 .panel-heading:first-child .panel-title>h1{font-size: 50px;padding-bottom: 20px;}
+#C_cloud_section5 .row>div[class="col-md-6"]:first-child{text-align: left;}
+#C_cloud_section5 .row>div[class="col-md-6"]>.panel-heading>.panel-title>h3:first-child{font-size: 22px;}
+#C_cloud_section5 .row>div[class="col-md-6"]>.panel-body>p{margin-bottom: 20px;font-size: 14px;}
+#C_cloud_section5 .row>div[class="col-md-6"]>.panel-body>button:last-child{position: relative;margin:auto;background-color: #54b9a5;color: white;font-weight: 500;}
+#C_cloud_section5 .row>div[class="col-md-6"]>img:last-child{max-width: 347px;margin-top: 10px;}
+#C_cloud_section6 .panel-heading:first-child .panel-title>h1{font-size: 50px;padding-bottom: 20px;}
+#C_cloud_section6 .panel-title:first-child >p{  color: #979797;font-size: 16px; }
+.C_cloud_S6_Document{width: 60%;float: left;box-sizing: border-box;}
+.C_cloud_S6_Logo{width: 30%;float: left;box-sizing: border-box;padding-top: 30px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5{  padding: 0px 0px 0px 0px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5>div{  padding: 0px 0px 0px 0px;color: #676767}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:first-of-type>div>.C_cloud_S6_Document{text-align: right}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:last-of-type>div>.C_cloud_S6_Document{text-align: left}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:first-of-type>div>.C_cloud_S6_Document h3{font-size: 18px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:last-of-type>div>.C_cloud_S6_Document h3{font-size: 18px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:first-of-type>div>.C_cloud_S6_Document h3{font-size: 18px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:last-of-type>div>.C_cloud_S6_Document h3{font-size: 18px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:first-of-type>div>.C_cloud_S6_Logo{min-height: 100px}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:first-of-type>div>.C_cloud_S6_Logo p{font-size: 13px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-5{min-height: 500px}
+#C_cloud_section6 .middle_Section>.row>.col-md-5:last-of-type>div>.C_cloud_S6_Logo p{font-size: 13px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-2>div>div{padding-left:0px;width: 125px;height: 125px;position: relative;left: 50%;transform: translateX(-50%);border-radius: 100px;line-height: 125px;font-size: 70px;color: white;margin-bottom: 20px;}
+#C_cloud_section6 .middle_Section>.row>.col-md-2>div>div:first-child{background-color: #c14401;}
+#C_cloud_section6 .middle_Section>.row>.col-md-2>div>div:last-child{background-color: #22759b;}
+#C_cloud_section6 .middle_Section>.C_cloud_part_transfrom:first-child{position: relative;bottom: 50px;transition: 2s;opacity: 0;}
+.C_cloud_part_transfrom_re1{transform: translateY(50px);opacity: 1;}
+#C_cloud_section6 .C_cloud_part_transfrom:nth-of-type(2){position: relative;transition: 2s;top: 70px;opacity: 0;}
+.C_cloud_part_transfrom_reP2{transform: translateY(-50px);}
+#C_cloud_section6 .C_cloud_part_transfrom:nth-of-type(3){position: relative;transition: 2s;opacity: 0;left: 70px;}
+#C_cloud_section6 .row>.C_cloud_part_transfrom:nth-of-type(1){position: relative;transition: 2s;opacity: 0;right: 50px;}
+.C_cloud_part_transfrom_reP4{transform: translateX(-50px);}
+.C_cloud_part_transfrom_reP3{transform: translatex(50px);}
+#C_cloud_section7{position: relative;bottom: 50px; transition: 2s;opacity: 0}
+#C_cloud_section7 .panel-heading:first-child .panel-title>h1{font-size: 50px;padding-bottom: 20px;margin-top: 60px}
+#C_cloud_section7 >.middle_Section>.panel-heading>.panel-title> p {  color: #979797;font-size: 16px; }
+#C_cloud_section7>.middle_Section>.row>.col-md-3{color: #4e4e4e}
+#C_cloud_section7>.middle_Section>.row>.col-md-3>h3{font-size: 20px;}
+#C_cloud_section7>.middle_Section>.row>.col-md-3>p:last-of-type{font-size: 13px;}
+#C_cloud_section7>.middle_Section>.row>.col-md-3:first-child{padding: 20px 30px 10px 0px}
+#C_cloud_section7>.middle_Section>.row>.col-md-3:nth-child(2){padding: 20px 20px 10px 10px}
+#C_cloud_section7>.middle_Section>.row>.col-md-3:nth-child(3){padding: 20px 10px 10px 20px}
+#C_cloud_section7>.middle_Section>.row>.col-md-3:nth-child(4){padding: 20px 0px 10px 30px}
+@media screen and (max-width:960px){
+	#C_cloud_section4>.middle_Section>.row>.col-md-3:first-child{padding: 20px 0px 40px 0px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3:nth-child(2){padding: 20px 0px 40px 0px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3:nth-child(3){padding: 20px 0px 40px 0px}
+#C_cloud_section4>.middle_Section>.row>.col-md-3:nth-child(4){padding: 20px 0px 40px 0px}
+}

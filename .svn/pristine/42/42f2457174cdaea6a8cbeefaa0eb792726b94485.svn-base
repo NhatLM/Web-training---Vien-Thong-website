@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thue cho dat may chu</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--font awesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="Liem_thueChoDat.css"/>
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js.map"></script>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<!--section 1 gia dich vu-->
+<div class="choDat_sections choDat_section1">
+   <div class="container">
+       <h1>BẢNG GIÁ DỊCH VỤ LƯU TRỮ STOREBOX</h1>
+       <div class="bottomline" style="background-image: url(img/line_throught_blue.png);background-repeat: no-repeat;background-size: contain;background-position: center"></div>
+       <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6 choDat_section1_items">
+              <div class="choDat_section1_item">
+                  <div class="section1_item_title">
+                      <b>STOREBOX 1</b>
+                  </div>
+                  <div class="section1_item_feature_outer">
+                            <ul class="list-arrow2">
+                               <li>Tổng dung lượng: &nbsp;<b>100 GB</b></li>
+                               <li>Quản trị User: &nbsp;<b>-</b></li>
+                               <li>Tên miền riêng: &nbsp;<b>-</b></li>
+                               <li>Tùy biến logo web: &nbsp;<b>-</b></li>
+                               <li>Số lượng user: &nbsp;<b>5</b></li>
+                               <li>Dung lượng user: &nbsp;<b>20 GB</b></li>
+                               <li>Max file size: &nbsp;<b>5 GB</b></li>
+                           </ul>
+                           <div class="section1_item_price">270.000</div>
+                           <button><a href="#">ĐẶT MUA</a></button>
+                  </div>
+              </div>
+          </div>
+
+           <div class="col-lg-3 col-md-4 col-sm-6 choDat_section1_items">
+               <div class="choDat_section1_item">
+                   <div class="section1_item_title">
+                       <b>STOREBOX 2</b>
+                   </div>
+                   <div class="section1_item_feature_outer">
+                            <ul class="list-arrow2">
+                               <li>Tổng dung lượng: &nbsp;<b>200 GB</b></li>
+                               <li>Quản trị User: &nbsp;<b>√</b></li>
+                               <li>Tên miền riêng: &nbsp;<b>-</b></li>
+                               <li>Tùy biến logo web: &nbsp;<b>-</b></li>
+                               <li>Số lượng user: &nbsp;<b>15+</b></li>
+                               <li>Dung lượng user: &nbsp;<b>Sharing</b></li>
+                               <li>Max file size: &nbsp;<b>7 GB</b></li>
+                           </ul>
+                           <div class="section1_item_price">570.000</div>
+                       <button><a href="#">ĐẶT MUA</a></button>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4 col-sm-6 choDat_section1_items">
+               <div class="choDat_section1_item">
+                   <div class="section1_item_title">
+                       <b>STOREBOX 3</b>
+                   </div>
+                   <div class="section1_item_feature_outer">
+                            <ul class="list-arrow2">
+                               <li>Tổng dung lượng: &nbsp;<b>300 GB</b></li>
+                               <li>Quản trị User: &nbsp;<b>√</b></li>
+                               <li>Tên miền riêng: &nbsp;<b>√</b></li>
+                               <li>Tùy biến logo web: &nbsp;<b>-</b></li>
+                               <li>Số lượng user: &nbsp;<b>30+</b></li>
+                               <li>Dung lượng user: &nbsp;<b>Sharing</b></li>
+                               <li>Max file size: &nbsp;<b>10 GB</b></li>
+                           </ul>
+                           <div class="section1_item_price">920.000</div>
+                       <button><a href="#">ĐẶT MUA</a></button>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4 col-sm-6 choDat_section1_items">
+               <div class="choDat_section1_item">
+                   <div class="section1_item_title">
+                       <b>STOREBOX 4</b>
+                   </div>
+                   <div class="section1_item_feature_outer">
+                            <ul class="list-arrow2">
+                               <li>Tổng dung lượng: &nbsp;<b>500 GB</b></li>
+                               <li>Quản trị User: &nbsp;<b>√</b></li>
+                               <li>Tên miền riêng: &nbsp;<b>√</b></li>
+                               <li>Tùy biến logo web: &nbsp;<b>-</b></li>
+                               <li>Số lượng user: &nbsp;<b>50+</b></li>
+                               <li>Dung lượng user: &nbsp;<b>Sharing</b></li>
+                               <li>Max file size: &nbsp;<b>Unlimitted</b></li>
+                           </ul>
+                           <div class="section1_item_price">1.500.000</div>
+                       <button><a href="#">ĐẶT MUA</a></button>
+                   </div>
+               </div>
+           </div>
+
+           <div class="col-lg-3 col-md-4 col-sm-6 choDat_section1_items">
+               <div class="choDat_section1_item">
+                   <div class="section1_item_title">
+                       <b>STOREBOX 5</b>
+                   </div>
+                   <div class="section1_item_feature_outer">
+                            <ul class="list-arrow2">
+                               <li>Tổng dung lượng: &nbsp;<b>1000 GB</b></li>
+                               <li>Quản trị User: &nbsp;<b>√</b></li>
+                               <li>Tên miền riêng: &nbsp;<b>√</b></li>
+                               <li>Tùy biến logo web: &nbsp;<b>√</b></li>
+                               <li>Số lượng user: &nbsp;<b>100+</b></li>
+                               <li>Dung lượng user: &nbsp;<b>Sharing</b></li>
+                               <li>Max file size: &nbsp;<b>Unlimitted</b></li>
+                           </ul>
+                           <div class="section1_item_price">2.900.000</div>
+                       <button><a href="#">ĐẶT MUA</a></button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+<!--section 2 ưu điểm dịch vụ-->
+<div class="choDat_sections">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>ƯU ĐIỂM CỦA DỊCH VỤ CHO THUÊ CHỖ ĐẶT MÁY CHỦ</h1>
+            <div class="bottomline" style="background-image: url(img/line_throught_blue.png);background-repeat: no-repeat;background-size: contain;background-position: center"></div>
+            <div class="introsection2">
+                <div class="row justify-content-center " style="margin: 0px">
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-university Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>CÁC ĐƠN VỊ BỘ BAN NGÀNH NHÀ NƯỚC</b></h6>
+                    <p class="Tn0specp">Sao lưu các máy chủ dữ liệu, tài liệu, máy ảo, dữ liệu chuyên môn, dữ liệu khách hàng, công văn, tờ trình …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-html5 Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6 ><b>CÔNG TY PHẦN MỀM</b></h6>
+                    <p class="Tn0specp">Sao lưu, lưu trữ source code, thư viện, cơ sở dữ liệu phần mềm …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-youtube Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>CÔNG TY TRUYỀN THÔNG QUẢNG CÁO</b></h6>
+                    <p class="Tn0specp">Lưu trữ phim truyện, tư liệu, bài viết, tranh ảnh, các clip game show, bản vẽ thiết kế …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-picture-o Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>CÔNG TY THIẾT KẾ</b></h6>
+                    <p class="Tn0specp">Lưu trữ bản vẽ thiết kế, phim ảnh, phân phối cho khách hàng qua internet …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-user-secret Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>CÁC ĐƠN VỊ AN NINH</b></h6>
+                    <p class="Tn0specp">Sao lưu dữ liệu camera an ninh, dữ liệu soi quét an ninh …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-wordpress Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>CÔNG TY CUNG CẤP HOSTING VPS</b></h6>
+                    <p class="Tn0specp">Sao lưu máy ảo VPS, Hosting, lưu trữ dữ liệu media cho hosting …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-ship Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>CÔNG TY VẬN TẢI</b></h6>
+                    <p class="Tn0specp">Lưu trữ vận đơn, hóa đơn chứng từ, dữ liệu camera hành trình …
+                    </p>
+                </div>
+                <div class="Tn0warpspec">
+                    <div class="Tn0Iconspec">
+                        <i class="fa fa-users Tn0specir" ></i>
+                    </div>
+                    <br>
+                    <h6><b>TẤT CẢ MỌI NGƯỜI</b></h6>
+                    <p class="Tn0specp">Cloud Storage là giải pháp hoàn hảo cho mọi nhu cầu lưu trữ dữ liệu.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--section3 slide -->
+<div class="choDat_sections choDat_section3">
+    <div class="container">
+        <h1>CỘNG ĐỒNG</h1>
+        <div class="bottomline" style="background-image: url(img/line_throught_blue.png);background-repeat: no-repeat;background-size: contain;background-position: center"></div>
+
+        <div class="row">
+            <div class="col-12">
+                <div id="choDat_section3_slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec7a.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec7b.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec7c.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8d.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8e.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8f.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8g.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8l.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8m.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8n.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 0,
+        centeredSlides: true,
+        loop: true,
+        slidesPerGroup:1,
+        centeredSlides:false,
+        slidesPerView:5,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints:{
+            996 :{
+                slidesPerView:3,
+                slidesPerGroup:1,
+            },
+            768:{
+                slidesPerView:2,
+                slidesPerGroup:2,
+            }
+        }
+    });
+</script>
+</body>
+</html>

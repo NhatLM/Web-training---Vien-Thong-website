@@ -1,0 +1,35 @@
+
+var swiper = new Swiper('.home_slide', {
+    spaceBetween: 0,
+    loop: true,
+    slidesPerGroup:1,
+    centeredSlides:false,
+    slidesPerView:5,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints:{
+        996 :{
+            slidesPerView:3,
+            slidesPerGroup:1,
+        },
+        768:{
+            slidesPerView:2,
+            slidesPerGroup:2,
+        }
+    }
+});
+//slidee menu
+var swiperHome = new Swiper('.banner_slider',{
+    spaceBetween:0,
+    centeredSlides:false,
+    loop:true,
+    slidesPerView:1,
+    slidesPerGroup:1,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable:true,
+    },
+})
+

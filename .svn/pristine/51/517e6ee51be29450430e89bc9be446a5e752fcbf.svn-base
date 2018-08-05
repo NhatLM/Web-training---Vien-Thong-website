@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.qaSection {width:100%; box-sizing:border-box;padding-top:20px;padding-bottom: 30px;background: #f0f0f0}
+.qaSectionrow {max-width:1080px;width:80%;}
+.qaDiv {width:50%; float:left;box-sizing:border-box; padding:10px;}
+.qaDiv h1 {margin-bottom:30px;font-size:24px;font-weight:400;}
+.qaDivSmall {width:95%; float:left;box-sizing:border-box;background:#EAEAEA;padding:10px 0px;border-bottom:0.5px solid #D6D6D6;font-size:14px;}
+.qaDivSmall>i {margin-right:15px;margin-left:15px;}
+.qaDivSmall .dropbtn {float:right; height:42px;width:42px;background:#AAA;margin-top:-10px;margin-bottom:-10px;box-sizing:border-box;color:white;font-size:24px; border-top: solid 1px white}
+.qaDivSmall .dropbtn i {height:42px; line-height:42px;position:relative; top:50%;left: 50%; transform:translate(-50%,-50%); font-size:15px}
+.qaDivSmall .btnactiv {background:#f05a3a;color:white;font-size:36px;box-sizing:border-box;}
+.qaDivSmall .btnactiv i {height:42px; line-height:42px;position:relative; top:50%;left: 50%; transform:translate(-50%,-85%); font-size:15px; }
+.activ {}
+.qaDivSmall .dropbtn:hover {cursor:pointer;}
+.qaDiv .dropdownContent {background:#f0f0f0;display:none;overflow:hidden;padding-left:14px;font-size:12px;font-weight:450;}
+.qaInfo {background:#f0f0f0;width:100%;border:none;}
+@media screen and (max-width:899px) {
+    .qaDiv {width: 100%}
+
+}
+
+

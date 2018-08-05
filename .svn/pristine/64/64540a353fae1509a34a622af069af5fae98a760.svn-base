@@ -1,0 +1,40 @@
+.Tn0Price{width: 100%;background: #f0f0f0; padding-bottom: 40px}
+.Tn0Pricewarp{width: 80%; max-width: 1080px; background: inherit; margin-left: auto; margin-right: auto; margin-top: 40px}
+.section4div{margin: 1%;background: white;box-sizing:border-box;overflow:hidden;width: 23%}
+.section4div .header {background-color:#3859a7; color:white;height: 100px;padding-top:10px;text-align: center}
+.section4div .header b {font-size:14px;}
+.section4div .header p {font-size:30px;}
+.section4div .content {
+    background-color:white;
+    font-size:14px;
+    text-align:left;
+    padding:20px;
+
+}
+.section4div .content ul {list-style-type:none;padding:0px;}
+.section4div .content ul li{ border-bottom:1px solid #D1D1D1;padding-top:5px; padding-bottom:5px;}
+.section4div .buybtn {
+    width: 100%;
+    color:white;
+    outline:none;
+    border:none;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    background:#4B4B4B;
+    height:30px;
+    transition:all 0.3s;
+}
+.section4div .buybtn:hover {background:#747474;cursor:pointer;}
+
+
+.Tn0Intro{ width: 80%; max-width: 1080px;margin-right: auto;margin-left: auto; padding-top:20px }
+.Tn0Introdetail{width: 50%; padding-right: 10px; padding-left: 10px; margin-top: 40px}
+.Tn0Introicon{width: 90px; height: 90px; border-radius: 360px; margin: 10px; float: left; background: white }
+
+@media screen and (max-width:994px){
+    .section4div{width: 43%}
+}
+@media screen and (max-width:699px){
+    .section4div{width: 98%}
+}

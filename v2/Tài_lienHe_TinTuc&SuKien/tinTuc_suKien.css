@@ -1,0 +1,226 @@
+*,
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.clear {
+	display: block;
+	clear: both;
+}
+
+#suKien {
+	width: 85%;
+	margin: auto;
+	padding: 30px 0;
+}
+
+#leftContent {
+	width: 70%;
+	float: left;
+}
+
+#leftContent div > ul {
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	margin: 20px 0;
+}
+
+#leftContent div > ul:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+#leftContent div > ul > li {
+	width: 50%;
+	float: left;
+}
+
+#leftContent div > ul > li > div:nth-of-type(1) {
+	width: 35%;
+	float: left;
+}
+
+#leftContent div > ul > li > div:nth-of-type(1) img {
+	width: 90%;
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) {
+	width: 65%;
+	float: right;
+	padding: 10px;
+	padding-right: 30px;
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > div:nth-of-type(1) span {
+	color: #E24220;
+	margin-right: 10px
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > div:nth-of-type(1) i:nth-of-type(2) {
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.2)
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > a:nth-of-type(1) {
+	font-weight: bold;
+	color: black;
+	margin: 10px 0;
+	display: block;
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > a:nth-of-type(1):hover {
+	color: #E24220;
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > a:nth-of-type(2) {
+	color: black;
+	margin: 10px 0;
+	display: block;
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > a:nth-of-type(2) span {
+	color: #E24220;
+}
+
+#leftContent div > ul > li > div:nth-of-type(2) > a:nth-of-type(2):hover {
+	color: #E24220;
+}
+
+#rightContent {
+	float: right;
+	width: 30%;
+}
+
+#rightContent div {
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+
+#rightContent div > h3 {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+	background-color: #E24220;
+}
+
+#rightContent div ul {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#rightContent div ul li a {
+	display: inline-block;
+	width: 90%;
+	height: 100%;
+	padding: 20px 0;
+	color: black;
+	margin-left: 5%;
+	border-bottom: 1px solid #ccc;
+	transition: all 0.3s;
+}
+
+#rightContent div ul li a span:nth-of-type(1) {
+	font-size: 0.6em;
+	color: #E24220;
+	margin-right: 5px;
+
+}
+
+#rightContent div ul li a span:nth-of-type(2) {
+	float: right;
+}
+
+#rightContent div ul li:hover a {
+	color: #E24220;
+	padding-left: 20px;
+}
+
+#slideShow {
+	width: 100%;
+	padding: 40px 0;
+	background-image: url('img/bg-partner.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.swiper-slide a img{
+	display: block;
+	margin: auto;
+}
+.swiper-container {
+	width: 80%;
+	margin: auto;
+}
+
+.moveSlide{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 1px solid #ffffff;
+	border-radius: 40px;
+	padding: 5px 20px;
+	cursor: pointer;
+	z-index: 5;
+	color: white;
+	font-size: 1.3em;
+}
+.left {
+	left: 50px;
+}
+
+.right {
+	right: 	50px;;
+}
+
+@media only screen and (max-width:1000px) {
+	#suKien > div {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media only screen and (max-width:800px) {
+	#suKien {
+		width: 95%;
+	}
+	#leftContent div > ul > li {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	#leftContent div > ul > li {
+		margin-bottom: 20px;
+	}
+	#leftContent div > ul > li > div:nth-of-type(1),
+	#leftContent div > ul > li > div:nth-of-type(2) {
+		width: 100%;
+		float: none;
+	}
+	#leftContent div > ul > li > div:nth-of-type(1) img {
+		width: 50%;
+		display: block;
+		margin: auto;
+	}
+}

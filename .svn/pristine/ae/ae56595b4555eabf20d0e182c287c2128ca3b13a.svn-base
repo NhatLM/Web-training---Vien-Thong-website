@@ -1,0 +1,32 @@
+function myFunction9() {
+    var a = $(document).scrollTop();
+    if (a > 1) {
+        document.getElementById("myBtn").style.display ="block";
+    } else {
+        document.getElementById("myBtn").style.display ="none";
+    }
+}
+function myFunction1() {
+    var a = $(document).scrollTop();
+    if (a > 155) {
+        document.getElementById("header3").style.position ="fixed";
+        document.getElementById("header3").style.marginTop ="-156px";
+        document.getElementById("warptag3").style.display ="block";
+    } else {
+        document.getElementById("header3").style.position ="static";
+        document.getElementById("header3").style.marginTop ="0px";
+        document.getElementById("warptag3").style.display ="none";
+    }
+}
+
+window.onscroll = function () {
+    myFunction9();
+    myFunction1();
+};
+//go to top btn
+$('#myBtn').click(function(){$('html,body').animate({scrollTop:'0px'},1000);})
+
+
+
+
+

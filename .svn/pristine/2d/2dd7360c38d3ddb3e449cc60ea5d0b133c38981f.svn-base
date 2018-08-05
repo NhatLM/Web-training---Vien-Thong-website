@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Khung Thue May Chu</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style>
+        body{background: ghostwhite}
+        .Tn0warpkhung{width: 80%; max-width: 1080px; margin-left: auto; margin-right: auto}
+        .Tn0khung{width: 100%; border-bottom: 1px solid #ddd; float: left}
+        .Tn0khungtag{padding:12px 23px;float: left; z-index: 1px; font-size: 14px ; cursor: pointer}
+        .Tn0khungtag:hover{background: #eee}
+        .active:hover{background: ghostwhite}
+        .active{border: 1px solid #ddd; border-bottom: 1px solid ghostwhite; margin-bottom: -1px ; float: left}
+        .Tn0Banggia{border: solid 1px #ddd; text-align: left; font-size: 13px; margin-top: 20px; padding: 0px;width: 23%; margin-right: 1%; margin-left: 1%}
+        .Tn0Banggiahead{padding: 15px; background: #e24220; color: white; text-align: center; font-size: 15px}
+        .Tn0Banggiain{padding-left: 15px; padding-right: 15px; background: white; padding-bottom:20px; padding-top: 20px; color: #918e8e   }
+        .Tn0Banggiaprice{padding: 10px ; background: #E24220; color: white; font-size: 15px}
+        .Tn0Banggiamore{padding: 3.5px 10px; opacity: 0; background: white; color: #E24220; margin-right: auto; margin-left: auto; text-align: center;width: 100px; font-size: 14px; margin-top: 5px}
+        .Tn0Banggiaprice:hover .Tn0Banggiamore{opacity: 1}
+
+    </style>
+</head>
+<body>
+<div class="Tn0warpkhung">
+    <div class="row justify-content-center" style="margin: 0px">
+    <div class="Tn0khung">
+        <div class="Tn0khungtag">
+            <b>Tất cả</b>
+        </div>
+        <div class="Tn0khungtag active">
+            <b>IBM</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>Dell</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>Super micro</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>HP</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>Khác</b>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center" style="margin: 0px">
+    <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+            <b>3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+    <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+            <b>3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+    <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+            <b>3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+    <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+            <b>3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+    <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+            <b>3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

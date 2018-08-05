@@ -1,0 +1,12 @@
+.H-antoan ul{list-style-type: none;padding-left: 5px;padding-right: 5px;}
+.H-antoan p{margin: 0px;}
+.H-antoan ul li{padding: 10px 0;}
+.H-antoan .section-title{background-color: #ee4123;font-size: 1.50em;text-align: center;color: white;}
+.H-antoan .section-title b{text-transform: uppercase;font-weight: bold;}
+.H-antoan .section-content{background-color: white; padding-bottom: 25px;}
+.H-antoan .section-content:hover.section-content button{opacity: 1;}
+.H-antoan h1{text-align: center;color:#56b0b0;}
+.H-antoan .handmade-boder{margin-bottom:30px;background-image: url("img-antoan/line_throught_blue.png");background-repeat: no-repeat;background-size: contain;background-position: center;height: 20px}
+.H-antoan button{opacity: 1;transition:all 1s;transform:translateX(70%);background-color:#ee4123;font-weight: bold;border: none !important;box-shadow: none !important; width: 40%;height: 30px;text-align: center}
+.H-antoan button a{text-decoration: none;color: white !important; display: inline-block }
+.H-antoan button a:hover{cursor: pointer;text-decoration: none;}

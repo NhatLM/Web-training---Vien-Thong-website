@@ -1,0 +1,33 @@
+body{margin: 0px; padding: 0px}
+#header1{background: #6E6E6E; width: 100%; margin: 0px}
+.header1{height: 40px;width: 80%; max-width: 1150px}
+.menutag1left{float: left ;width: 70%;height: 40px;font-size: 14px;padding: 10px 0px}
+.menutag1leftag{font-size: 14px; text-align: center; float: left; padding: 0px 20px; height:20px; border-right: 1px solid white ; }
+.menutag1lefa{text-decoration: none; color: white}
+.menutag1lefa:hover{color:#E24220; text-decoration: none}
+.menutag1right1{float: right; width: 19.6%; height: 40px; margin-right: 0.4%; color: white; background: #8a8a8a}
+.menutag1right2{float: right; width: 9.6%; height: 40px; margin-left: 0.4%; color: white; background: #8a8a8a}
+.header2{height:110px; width: 80%; max-width: 1150px; }
+.menutag2left{width: 49%; padding-top: 22.5px; float: left}
+.menutag2right{width: 17%; padding: 22.5px 05px; height: 110px; float: right}
+#header2{background: white; width: 100%;margin: 0px}
+.menutag2rightcir{height: 50px;margin-top: 2.5px; margin-bottom: 2.5px; border-radius: 360px; width: 50px; border: solid 0.5px #b5b5b5; float: left; font-size: 25px;  color: #E24220; padding-left: 13px; padding-top: 3px }
+.tagb{font-size: 13px; color: #E24220; padding-left: 10px}
+.tagp{font-size: 13px; padding-left: 60px}
+#header3{Background: #E24220 ;height: 56px; border-top: solid 6px #ececec; width: 100%;margin: 0px; z-index: 1}
+.header3{width: 80%; max-width: 1150px}
+.warptag3{height: 50px ; padding-top: 15px;float: left;}
+.menutag3{font-size: 14px; text-align: center; float: left; padding: 0px 20px; height:20px; border-right: 1px solid white ; height: 20px; }
+#warptag3{display: none }
+.menutaga{text-decoration: none; color: white}
+.dropdownmn {display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1; background: #ececec;margin-top: 35px}
+.menutag:hover .dropdownmn{display: block}
+.dropmenuDiv {background:inherit;text-align:left;padding: 0px 14.5px; box-sizing:border-box;display:inline-block;text-decoration: none; color: black;width: 100%; height: 40px; font-size: 14px; border-top:solid 0.1px  #d1cfcf }
+.dropp{margin-top: 8px; margin-bottom: 8px}
+.dropmenuDiv:hover  {color:#f05a3a }
+.warptag3:hover{background: #ececec;color: #333; text-decoration: none}
+.warptag3:hover .menutaga{background: #ececec;color: #333; text-decoration: none}
+.warptag3:hover .dropdownmn{display: block}

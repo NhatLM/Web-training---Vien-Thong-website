@@ -1,0 +1,84 @@
+body {padding: 0px;margin: 0px}
+.center{width: 80%;text-align: center;margin-right: auto;margin-left: auto; max-width: 1080px}
+.logowarp{width: 12%; height: 55px; float: left;padding-top: 10px;  background: radial-gradient(circle, white -32%,#4665AB 83%); border-radius: 30%}
+.tagwarp{width: 88%; height: 55px;float: left}
+.menu{
+    width: 100%;
+    background: #4665AB;
+    padding: 0px ;
+    position: fixed;
+    top:0px;
+    float:left;
+    z-index: 2
+}
+#menulogo{
+    height: 35px;
+    float: left;
+    position: relative;
+    left:5%;
+    top:15%;
+}
+.menulogo{height: 35px; float: left}
+.menutag{ font-size: 14px; text-align: center; border-radius: 5px 5px 0px 0px; float: left; padding: 18px 8px; height: 55px;float: right ; color: white;border-bottom: solid 3px #3859a7 }
+.menutag:hover{border-color: #f05a3a ;cursor:pointer }
+.active{ border-bottom: solid 3px #f05a3a }
+.navmenu{
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+    box-sizing:border-box;
+    width:100%;
+    float:left;
+    display: none;
+    position:fixed;
+    top:0px;
+    background: white;
+}
+/*.navmenu #menulogo {
+    position:fixed;
+    left:15px;
+}*/
+.navmenu .row {height:60px;}
+.navmenu .row span {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    top:10px;
+}
+#navmenuin{display: none;overflow:hidden;width: 100%; transition: 0.3s; background: #252525;font-size: 14px;color: #999999;padding-left: 50px;padding-right: 50px}
+#navmenuin .dropdown {width:100%;float:left;box-sizing:border-box;}
+.submenu1{padding-left:25px;display:none;}
+#navmenuin a {text-decoration: none;color: #999999;}
+.menuintag{float: left;width: 100%;color:  #999999;text-decoration: none;border-bottom: solid 0.5px #999999;padding-bottom: 10px;padding-top: 10px}
+.menuintag i {color:#09C; float:right;margin-right:10px;}
+.menuintag:hover{color: white;text-decoration: none}
+#navmenuin i:hover {color:white;cursor:pointer;}
+
+.show {display: block}
+
+.menutag .container-fluid { width: 60%; }
+.dropdownmn {display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; background: #3859a7; margin-left: -9px;margin-top: 16px}
+.menutag:hover .dropdownmn{display: block}
+.dropmenuDiv {background:inherit;text-align:left;padding: 12.5px 15px; box-sizing:border-box;display:inline-block;text-decoration: none; color: white;width: 100% ; font-size: 14px}
+.dropmenuDiv:hover  {color:#f05a3a }
+.centerdiv{width: 80%;max-width: 1080px}
+@media screen and (max-width:1000px) {
+    .menu {
+        display: none;
+    }
+
+    .navmenu {
+        display: block;
+        z-index: 2;
+    }
+
+    #navmenuin {
+        position:relative;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <style>
+        .conten{width: 85%;margin: auto}
+        .table input{max-width:50px;}
+        .table tr>*:first-child+*{width:40%}
+        .table tr>*:first-child+*+*+*{width: 5%;text-align: right}
+        .table tr>*:first-child+*+td{line-height: 100%;}
+        .table tr>*:first-child+*+*+*+*{width: 10%;text-align: right}
+        .table tr>*:first-child{width: 25%;}
+        .table tr:first-of-type th{text-align: center;}
+        .table tr:last-of-type th{font-size: 15px}
+        .table tr:last-of-type>*{height: 50px;line-height: 50px; font-weight: bold}
+    </style>
+</head>
+<body class="conten">
+<table ng-app="myApp" ng-controller="myCler" class="table table-hover table-bordered">
+<tr>
+    <th>Dịch Vụ</th>
+    <th>Nội dung</th>
+    <th>Số lượng</th>
+    <th>Đơn giá <br>(VNĐ/tháng)</th>
+    <th>Thành Tiền</th>
+</tr>
+    <tr>
+        <th>Dịch vụ tường lửa đa lớp</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>External</td>
+        <td><input ng-init='External=0'type="number" ng-model="External" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 MáyChủ</td>
+        <td>360,000</td>
+        <td>{{External*360000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Internal</td>
+        <td><input ng-init='Internal=0'type="number" ng-model="Internal" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 MáyChủ</td>
+        <td>240,000</td>
+        <td>{{Internal*240000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <th>Dịch vụ phát hiện và ngăn chặn xâm nhập IPS/IDS</th>
+        <td></td>
+        <td><input ng-init='IPS=0'type="number" ng-model="IPS" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 MáyChủ</td>
+        <td>400,000</td>
+        <td>{{IPS*400000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <th>Dịch vụ SOC</th>
+        <td>
+            <ul>
+            <li>Dịch vụ phát hiện, cảnh báo sớm các vấn đề nguy cơ liên quan đến an toàn thông tin</li>
+            <li>Dịch vụ Giám sát, phát hiện và phân tích chuyên sâu, phòng chống tấn công APT</li>
+            </ul>
+        </td>
+        <td><input ng-init='APT=0'type="number" ng-model="APT" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 MáyChủ</td>
+        <td>1.500,000</td>
+        <td>{{APT*1500000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <th>Dịch vụ phòng chống mã độc trên máy chủ</th>
+        <td>
+            Antivirus
+        </td>
+        <td><input ng-init='Antivirus=0'type="number" ng-model="Antivirus" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 MáyChủ</td>
+        <td>182,000</td>
+        <td>{{Antivirus*182000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <th>Dịch vụ Loadbalancing</th>
+        <td></td>
+        <td><input ng-init='Loadbalancing=0'type="number" ng-model="Loadbalancing" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 MáyChủ</td>
+        <td>2,000,000</td>
+        <td>{{Loadbalancing*2000000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <th>Dịch vụ WAF</th>
+        <td>
+            <ul>
+            <li>Tường lửa ứng dụng web bảo vệ lớp ứng dụng khỏi các tấn công của  website</li>
+            <li>Chính sách riêng cho việc tường lửa ứng dụng web phù hợp với website của khách hàng</li>
+            </ul>
+        </td>
+        <td><input ng-init='website=0'type="number" ng-model="website" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x Website</td>
+        <td>12,000,000</td>
+        <td>{{website*12000000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <th>Dịch vụ chống DDOS</th>
+        <td>
+            <ul>
+            <li> Ngăn chặn tấn công, bảo vệ hạ tầng Application khỏi nguy cơ tê liệt hệ thống (Worm, Trojan, Bot, SSL-based attack, và VoIP attack…)</li>
+            <li>Ngăn chặn tấn công vào hạ tầng Mạng (Network Flood, Network Scan)</li>
+            <li>Ngăn chặn tấn công hạ tầng máy chủ (Intrusion, Brute Force, HTTP Denial of Service, HTTP Flood)</li>
+            <li>Giám sát, phân tích ngăn chặn chống tấn công từ chối dịch vụ DdoS bằng các hệ thống chuyên dụng</li>
+            <li>Số lượng IP được bảo vệ : 01 IP</li>
+            </ul>
+        </td>
+        <td><input ng-init='IP=0'type="number" ng-model="IP" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 IP</td>
+        <td>10,000,000</td>
+        <td>{{IP*999999 | currency : "" : 0}}</td>
+
+    </tr>
+    <tr>
+        <td></td>
+        <td>Account VPN kết nối vào máy chủ/td>
+        <td><input ng-init='IP2=0'type="number" ng-model="IP2" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 Account</td>
+        <td>200,000</td>
+        <td>{{IP2*200000 | currency : "" : 0}}</td>
+
+    </tr>
+    <tr>
+        <td></td>
+        <td>Sao lưu dự phòng Disk to Disk</td>
+        <td><input ng-init='IP3=0'type="number" ng-model="IP3" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 GB</td>
+        <td>10,000</td>
+        <td>{{IP3*10000 | currency : "" : 0}}</td>
+
+    </tr>
+    <tr>
+        <td></td>
+        <td>Sao lưu dự phòng Disk to Tape</td>
+        <td><input ng-init='IP4=0'type="number" ng-model="IP4" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()">  x 1 GB</td>
+        <td>3,000</td>
+        <td>{{IP4*3000 | currency : "" : 0}}</td>
+
+    </tr>
+    <tr>
+        <th>Đơn giá Nâng cấp</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Nâng cấp 1 vCPU</td>
+        <td><input ng-init='IP5=0'type="number" ng-model="IP5" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 vCPU</td>
+        <td>150,000</td>
+        <td>{{IP5*150000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Nâng cấp 1G RAM</td>
+        <td><input ng-init='IP6=0'type="number" ng-model="IP6" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 GB</td>
+        <td>200,000</td>
+        <td>{{IP6*200000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Nâng cấp 1GB HDD</td>
+        <td><input ng-init='IP7=0'type="number" ng-model="IP7" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 GB</td>
+        <td>5,000</td>
+        <td>{{IP7*5000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Cấp bổ sung 1 địa chỉ IP</td>
+        <td><input ng-init='IP8=0'type="number" ng-model="IP8" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 IP</td>
+        <td>130,000</td>
+        <td>{{IP8*130000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Account VPN kết nối vào máy chủ</td>
+        <td><input ng-init='IP9=0'type="number" ng-model="IP9" min="0" max="999999"pattern="^\d+$" ng-blur="caculater()" ng-mouseup="caculater()"> x 1 Account</td>
+        <td>200,000</td>
+        <td>{{IP9*200000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Phí cài đặt quản trị hệ thống </td>
+        <td><input  ng-init='IP10=0'type="number" ng-model="IP10" min="0" pattern="^\d+$"ng-mouseup="caculater()"  ng-blur="caculater()"> x 1 VPS</td>
+        <td>200,000</td>
+        <td>{{IP10*200000 | currency : "" : 0}}</td>
+    </tr>
+    <tr>
+        <td class="none_border"></td>
+        <td class="none_border"></td>
+        <td></td>
+        <td>Chưa Bao Gồm VAT</td>
+        <th>{{total| currency : "" : 0}}</th>
+    </tr>
+    <tr>
+        <td class="none_border"></td>
+        <td class="none_border"></td>
+        <td></td>
+        <td>VAT (10%)</td>
+        <th>{{total*0.1| currency : "" : 0}}</th>
+    </tr>
+    <tr>
+        <td class="none_border"></td>
+        <td class="none_border"></td>
+        <td></td>
+        <th>Tổng Cộng</th>
+        <th>{{total*1.1 | currency : "" : 0}}</th>
+    </tr>
+</table>
+
+<script>
+
+
+    angular.module("myApp",[]).controller("myCler",function ($scope, $timeout) {
+        $scope.caculater = function () {
+            $scope.total=0;
+//            console.log( $scope.total+"total")
+                $(".table-bordered tr>*:first-child+td+td+td+td").each(function () {
+                        if($(this).text().charAt($(this).text().length-1)=="0") {
+                            var price=$(this).text();
+                            for(var i=0;i<10;i++){
+                                price=price.replace(",","");
+                            }
+                            $scope.total+=parseInt(price);
+                        }
+
+                })
+        }
+    })
+
+</script>
+
+</body>
+</html>

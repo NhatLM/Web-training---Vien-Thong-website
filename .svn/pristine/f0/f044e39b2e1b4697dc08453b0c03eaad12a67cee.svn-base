@@ -1,0 +1,82 @@
+body {padding: 0px;
+    margin: 0px
+}
+
+#C_KM_main .panel-footer{
+            padding-left: 0px;
+        }
+        #C_KM_page div[class="panel-footer"]{
+            border:none;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #dddddd;
+            font-size: 13px;
+            background: none;
+        }
+        #C_KM_page .panel-heading{
+            padding-left: 0px;
+        }
+        #C_KM_page div[class="panel-title"]>p{
+            font-size: 10px;
+            font-weight: bold;
+            color:#c5c5c5;
+        }
+        #C_KM_page div[class="panel-title"] h3{
+            font-weight: bold;
+
+        }
+        #C_KM_main a{
+            color:
+            #3883c5;
+            text-decoration: none;
+        }
+
+        .C_KM_image{
+            max-width: 80%;
+            max-height:300px;
+        }
+        #C_KM_sidebar h3{
+            font-size: 15.5px;
+            color:
+                    #525252;
+        }
+        #C_KM_sidebar ul, li, .panel-body{
+            padding-left: 0px;
+        }
+        #C_KM_support li{
+            font-size: 12.5px;
+        }
+        #C_KM_list_service li{
+            font-size: 13px;
+        }
+        #C_KM_news div li{
+            padding: 0px 0px 0px 0px;
+            border-bottom:  #dddddd solid 0.5px;
+
+        }
+        #C_KM_news a{
+            font-weight: bold;
+            font-size: 12px;
+        }
+        #C_KM_news p{
+            font-size: 10px;
+        }
+        #C_KM_main * a:hover{
+
+        }
+        .C_KM_content{
+            padding-top: 10px;
+            line-height: normal;
+            /*color:#c5c5c5;*/
+            font-size: 13.2px;
+        }
+        .C_KM_ads{
+            width: 90%;
+            height:370px;
+            background-image: url("C:/Users/User/Desktop/newVienThong/VienThong/img/C_KM_ad1.PNG");
+        }
+        #C_KM_main a{
+            color:#1e73be;
+        }
+ #C_KM_main a:hover{
+     color:#4f939b;
+ }

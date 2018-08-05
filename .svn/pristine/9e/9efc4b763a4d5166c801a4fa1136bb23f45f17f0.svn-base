@@ -1,0 +1,110 @@
+*{margin:0px}
+.rack_sections {
+    width:100%;
+    float:left;
+}
+/*section1*/
+/*section1-left*/
+.rack_section1_left {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.rack_section1_left h1 {
+    color:#56b0b0;
+    font-size: 24px;
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}
+.bottomline {
+    height:16px;
+    width:100%;
+    margin-bottom: 20px;
+}
+.rack_price {
+    width:100%;
+    height:800px;
+    background: #b9def0;
+}
+
+/*section1-right*/
+.rack_section1_right {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.rack_section1_right h4 {
+    font-size:20px;
+    color:#56b0b0;
+    font-weight: 400;
+}
+.rack_section1_right a {text-decoration: none;}
+.rack_section1_right .fa-angle-right {
+    color:#56b0b0;
+    font-weight: bold;
+}
+.rack_section1_support,.rack_section1_services {
+    padding-bottom: 50px;
+}
+.rack_section1_services a {color:dimgrey;}
+.rack_section1_new ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+.rack_section1_new ul li {
+    padding-top: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+.rack_section1_new ul li:hover {background:ghostwhite}
+.rack_section1_new ul li a {color:#56b0b0;}
+.rack_section1_new ul li p {
+    position:relative;
+    top:5px;
+    left:10px;
+}
+.rack_section1_new .rack_advertise {
+    width:100%;
+    height:140px;
+    margin:10px 0px;
+}
+/*section2*/
+.rack_section2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    background:ghostwhite;
+}
+.rack_section2 a {text-decoration: none;color:#56b0b0;}
+.rack_section2 h4 {
+    font-size:20px;
+    color:#56b0b0;
+    font-weight: 400;
+}
+.rack_section2 i {color:#56b0b0;}
+.rack_section2_map {
+    height:300px;
+    background: #b9def0;
+    width:80%;
+    margin-left: 20%;
+}
+@media screen and (max-width: 990px)
+{
+    .rack_section2_map {width:100%;margin-left: 0%;}
+}
+@media screen and (max-width: 764px)
+{
+    .rack_section2_map {width:80%;margin-left: 10%;}
+}
+@media screen and (max-width: 700px)
+{
+    .rack_section2_map {width:90%;margin-left: 5%;}
+}
+@media screen and (max-width: 570px)
+{
+    .rack_section2_map {height:240px;}
+}
+
+

@@ -1,0 +1,192 @@
+*{margin:0px}
+.choDat_sections {
+    width:100%;
+    float:left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.choDat_sections h1 {
+    color:#56b0b0;
+    font-size: 24px;
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}
+.bottomline {
+    height:16px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+/*section1*/
+.choDat_section1 {
+    background:ghostwhite;
+}
+.choDat_section1_item {
+    height:420px;
+    margin:10px 0px;
+    float:left;
+    width:100%;
+}
+.section1_item_title {
+    width:100%;
+    float:left;
+    text-align: center;
+    color:white;
+    background:#ee4123;
+    font-size: 20px;
+    padding:15px 0;
+}
+.section1_item_title p {font-size: 25px}
+.section1_item_feature_outer {
+    width:100%;
+    float:left;
+    background: white;
+    position:relative;
+    font-size: 13px;
+    padding: 0;
+    padding: 0 0 50px;
+}
+.section1_item_feature_outer:hover button{
+    opacity:1;
+}
+.section1_item_feature_outer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.list-arrow2 li {
+    background-image: url(img/list_red.png);
+    background-repeat: no-repeat;
+    background-position: -400px -74px;
+    padding:7px 0 7px 25px;
+}
+.section1_item_feature_outer ul li {
+    border-bottom: 1px solid ghostwhite;
+}
+.section1_item_price {
+    display: block;
+    padding-top: 5px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #ee4123;
+    font-size: 25px;
+    margin-top: -1rem;
+}
+.section1_item_price::before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 0;
+    border-top: 1px solid #ee4123;
+}
+.section1_item_feature_outer button {
+    cursor:pointer;
+    outline: none;
+    border:none;
+    width:50%;
+    margin-left: 20%;
+    text-align: center;
+    background: #ee4123;
+    position:absolute;
+    bottom:25px;
+    transition: all 0.5s;
+    opacity:0;
+}
+.section1_item_feature_outer button a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.section1_item_feature_outer button:hover {opacity:0.9}
+@media screen and (max-width:576px)
+{
+    .choDat_section1_items{
+        width:70%;
+    }
+}
+
+/*section2*/
+.choDat_section2_wrapper {
+    width:100%;
+    float:left;
+    margin-top:30px;
+}
+.choDat_section2_img {
+    width:20%;
+    float:left;
+    height:100%;
+}
+.choDat_section2_img img {
+    width: 80%;
+    height:70%;
+}
+.choDat_section2_content {
+    width:80%;
+    float:left;
+    height:100%;
+    font-size: 14px;
+}
+.choDat_section2_content h5 {
+    font-size: 18px;
+    color:#56b0b0;
+}
+.introsection2{width:100%; max-width:1080px; margin-left: auto; margin-right: auto; padding-top: 30px  }
+.Tn0spec{width: 100%; text-align: center; padding-top: 20px; background: #f0f0f0;overflow:hidden;position:relative}
+.Tn0smallspec{width: 80%; max-width: 1080px;margin-left: auto; margin-right:  auto;position:relative;font-weight:bold;}
+.Tn0warpspec{width: 23%; float: left; background: inherit;text-align: center;padding:20px; transition:all 0.5s; cursor:pointer; margin-bottom:30px; border: 1px dashed #EE4925; margin-right: 1%; margin-left: 1%; box-sizing: border-box;}
+.Tn0Iconspec{height:70px; width: 70px;margin-left: auto; margin-right:  auto; background: #FFFFFF;transition:all 1s; border:solid 1px #909090;}
+.Tn0warpspec:hover .Tn0Iconspec{background:#EE4925;border-radius: 35px; transition-duration:0.4s}
+.Tn0warpspec:hover .Tn0specir{color:#FFFFFF}
+.Tn0specp{font-size: 14px; color: #717171}
+.Tn0specir{padding-top: 19px; color: #EE4925; font-size: 30px}
+.Tn0specir.fa-university {padding-left: 3px;}
+.Tn0specir.fa-html5 {padding-left: 2px;}
+.Tn0specir.fa-user-secret {padding-left: 3px;}
+.Tn0specir.fa-wordpress {padding-left: 2px;}
+@media screen and (max-width:1199px) {
+
+
+    .Tn0warpspec{width: 50%}
+}
+@media screen and (max-width:699px) {
+
+
+    .Tn0warpspec{width: 100%}
+}
+
+
+/*section3*/
+.choDat_section3 {
+    background: ghostwhite;
+}
+#choDat_section3_slider {
+    height:80px;
+}
+#choDat_section3_slider .swiper-container {
+    height:100%;
+}
+.choDat_section3 .swiper-slide div {
+    width:90%;
+    height:100%;
+    margin-left:5%;
+    background:white ;
+}
+.choDat_section3 .swiper-slide div img {
+    width:100%;
+    height:100%;
+}
+.choDat_section3 .swiper-button-next,.choDat_section3 .swiper-button-prev {
+    height:20px;
+    top:55px;
+}
+@media screen and (max-width: 996px)
+{
+    #choDat_section3_slider {
+        height:95px;
+    }
+    .choDat_section3 .swiper-button-next,.choDat_section3 .swiper-button-prev {
+        top:60px;
+    }
+}

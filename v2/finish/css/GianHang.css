@@ -1,0 +1,19 @@
+/*body{background-color: #333333}*/
+#Thanh_Toan{margin-bottom: 20px !important; }
+#contain{; margin-bottom: 40px}
+#Giang_Hang{margin-top: 10px}
+#Thanh_Toan {  display: none;  }
+.Thanh_Toan_btn{width: 30%;float: right}
+.price > input {width: 50px;}
+#Thanh_Toan input{text-align: center;}
+#Thanh_Toan td:nth-child(3){text-align: right;}
+#Thanh_Toan td:nth-child(2){text-align: center}
+#Thanh_Toan tr:nth-last-of-type(1)>th,  tr:nth-last-of-type(2)>th,  tr:nth-last-of-type(3)>th{text-align: right;}
+#Thanh_Toan tr:nth-last-of-type(1)>td:first-of-type, tr:nth-last-of-type(2)>td:first-of-type, tr:nth-last-of-type(3)>td:first-of-type{border-bottom: hidden;border-left: hidden}
+.Thanh_Toan_Contain_btn{padding: 0px;margin: 40px 0px;}
+#Total{font-weight: bolder}
+#Thanh_Toan_ComeBack{width: 10%}
+/*.GiangHang_container{width: 100%;margin: 0;}*/
+#Form_DK{display: none}
+#finish{width: 20% !important;margin-left: 40% !important;}
+

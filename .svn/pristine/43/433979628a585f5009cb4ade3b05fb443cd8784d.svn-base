@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thuê Máy Chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link rel="stylesheet" href="css/Tn0Menu.css">
+    <link rel="stylesheet" href="css/Tn0Home.css">
+    <link rel="stylesheet" href="css/Tn0Footer.css">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js.map"></script>
+
+    <style>
+        body{background: ghostwhite}
+        .Tn0warpkhung{width: 80%; max-width: 1080px; margin-left: auto; margin-right: auto}
+        .Tn0khung{width: 100%; border-bottom: 1px solid #ddd; float: left}
+        .Tn0khungtag{padding:12px 23px;float: left; z-index: 1px; font-size: 14px ; cursor: pointer}
+        .Tn0khungtag:hover{background: #eee}
+        .active:hover{background: ghostwhite}
+        .active{border: 1px solid #ddd; border-bottom: 1px solid ghostwhite; margin-bottom: -1px ; float: left}
+        .Tn0Banggia{border: solid 1px #ddd; text-align: left; font-size: 13px; margin-top: 20px; padding: 0px;}
+        .Tn0Banggiahead{padding: 15px; background: #e24220; color: white; text-align: center; font-size: 15px}
+        .Tn0Banggiain{padding-left: 15px; padding-right: 15px; background: white; padding-bottom:20px; padding-top: 20px; color: #918e8e   }
+        .Tn0Banggiaprice{padding: 15px 10px ; background: #E24220; color: white; font-size: 15px}
+        .Tn0Banggiamore{padding: 3.5px 10px; opacity: 0; background: white; color: #E24220; margin-right: auto; margin-left: auto; text-align: center;width: 100px; font-size: 14px; margin-top: 2px; margin-bottom: 2px; display: none; animation-duration: 2s}
+        .Price{display: block; opacity: 1; animation-duration: 2s}
+        .Tn0Banggiaprice:hover .Tn0Banggiamore{opacity: 1; display: block; -webkit-animation-name: fadeIn; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+            animation-name:fadeIn}
+        .Tn0Banggiaprice:hover{padding: 10px}
+        .Tn0Banggiaprice:hover .Price{display: none}
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="row justify-content-center" id="header1">
+        <div class="header1">
+            <div class="menutag1left">
+                <div class="menutag1leftag">
+                    <a href=" " class="menutag1lefa"><i class="fa">&#xf015;</i></a>
+                </div>
+                <div class="menutag1leftag">
+                    <a href=" " class="menutag1lefa">Công Nghệ</a>
+                </div>
+                <div class="menutag1leftag">
+                    <a href=" " class="menutag1lefa">Khuyến Mãi</a>
+                </div>
+                <div class="menutag1leftag">
+                    <a href=" " class="menutag1lefa">Địa Điểm</a>
+                </div>
+                <div class="menutag1leftag" style="border: none">
+                    <a href=" " class="menutag1lefa">Liên Hệ</a>
+                </div>
+            </div>
+            <!--choose language-->
+            <div class="menutag1right2">
+                <div class="languageChosen">
+                    <div class="languageAlter">
+                        <div class="flag" style="background: url(img/vn.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                        <span>Vietnamese</span>
+                    </div>
+                    <div class="dropIcon"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="languageList">
+                    <ul>
+                        <li class="language">
+                            <div class="flag" style="background: url(img/vn.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                            <span>Vietnamese</span>
+                        </li>
+                        <li class="language">
+                            <div class="flag" style="background: url(img/jp.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                            <span>Japanese</span>
+                        </li>
+                        <li class="language">
+                            <div class="flag" style="background: url(img/us.png);background-position: center;background-repeat: no-repeat;background-size: cover"></div>
+                            <span>English</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--search box-->
+            <div class="menutag1right1">
+                <input type="text" value="Tìm kiếm..."/>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center" id="header2">
+        <div class="header2">
+            <div class="menutag2left">
+                <img src="img/logo13.png">
+            </div>
+            <div class="menutag2right">
+                <div class="menutag2rightcir" >
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <b class="tagb">Email</b>
+                <p class="tagp">qtsc@qtsc.com.vn</p>
+            </div>
+            <div class="menutag2right">
+                <div class="menutag2rightcir" >
+                    <i class="fa fa-fax"></i>
+                </div>
+                <b class="tagb">Fax</b>
+                <p class="tagp">(84-28) 3715 5985</p>
+            </div>
+            <div class="menutag2right">
+                <div class="menutag2rightcir" >
+                    <i class="fa fa-volume-control-phone"></i>
+                </div>
+                <b class="tagb">Tel</b>
+                <p class="tagp">(84-28) 3715 8999</p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center" id="header3">
+        <div class="header3">
+            <div id="warptag3" class="warptag3">
+                <div class="menutag3">
+                    <a href=" " class="menutaga"><i class="fa">&#xf015;</i></a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href=" " class="menutaga">THUÊ MÁY CHỦ</a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href=" " class="menutaga">THUÊ CHỖ ĐẶT MÁY CHỦ</a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href=" " class="menutaga">THUÊ TỦ CRACK</a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href=" " class="menutaga">CLOUD BASE</a>
+                </div>
+                <div class="dropdownmn">
+                    <a href="CloudSever.html">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Server Cloud</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="PrivateCloud.html">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Private Cloud</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Cloud Storage</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Store Box</p>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="">
+                        <div class="dropmenuDiv">
+                            <p class="dropp">Cloud Backup</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="warptag3">
+                <div class="menutag3">
+                    <a href=" " class="menutaga">SECURITY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--navigation menu for header3-->
+    <div id="navmenu3">
+        <div class="navmenu3_item" id="navmenu3_btn" data-target="#navmenu3_content">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+
+        <div class="navmenu3_item">
+            <h1>DANH MỤC</h1>
+        </div>
+
+        <!--drop menu for header3-->
+        <div id="navmenu3_content">
+            <ul>
+                <li class="navmenu3_submenu">
+                    <a href="#">THUÊ MÁY CHỦ</a>
+                </li>
+
+                <li class="navmenu3_submenu">
+                    <a href="#">THUÊ CHỖ ĐẶT MÁY CHỦ</a>
+                </li>
+
+                <li class="navmenu3_submenu">
+                    <a href="#">THUÊ TỦ RACK</a>
+                </li>
+
+                <li class="navmenu3_submenu navmenu3_drop" data-target="#submenu_cloudbase">
+                    <a>CLOUD BASE</a>
+                    <div class="navmenu3_dropIcon">
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </div>
+                    <div class="navmenu3_submenu" id="submenu_cloudbase">
+                        <ul>
+                            <li class="navmenu3_submenu">
+                                <a href="#">Server Cloud</a>
+                            </li>
+
+                            <li class="navmenu3_submenu">
+                                <a href="#">Private Cloud</a>
+                            </li>
+
+                            <li class="navmenu3_submenu">
+                                <a href="#">Cloud Storage</a>
+                            </li>
+
+                            <li class="navmenu3_submenu">
+                                <a href="#">Store Box</a>
+                            </li>
+
+                            <li class="navmenu3_submenu" style="border-bottom: none">
+                                <a href="#">Cloud Backup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="navmenu3_submenu">
+                    <a href="#">SECURITY</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</header>
+<br><br>
+    <div class="Tn0warpkhung">
+    <div class="row justify-content-center" style="margin: 0px">
+    <div class="Tn0khung">
+        <div class="Tn0khungtag">
+            <b>Tất cả</b>
+        </div>
+        <div class="Tn0khungtag active">
+            <b>IBM</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>Dell</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>Super micro</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>HP</b>
+        </div>
+        <div class="Tn0khungtag">
+            <b>Khác</b>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center" style="margin: 0px">
+
+    <div class="col-md-3">
+        <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+                <b class="Price">3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+        <div class="Tn0Banggia">
+        <div class="Tn0Banggiahead">
+           <b>Colo 1 ssdasđ</b>
+        </div>
+        <div class="Tn0Banggiain">
+            <p style="margin: 0px">
+                <strong>CPU :</strong> Intel I9X
+                <br><strong>Ram :</strong> 8 GB HP PC3 - 10600E UDIMMs DDR3
+                <br><strong>HDD :</strong> 2 x HP 500GB 3GB SATA 7.2K 3.5in MDL
+                <BR><strong>Băng Thông Trong Nước :</strong> 100 Mb/s
+                <BR><strong>Băng Thông Quốc Tế :</strong> 10 Mb/s
+            </p>
+
+        </div>
+        <div class="Tn0Banggiaprice">
+            <div class="row justify-content-center">
+                <b class="Price">3.000.000 VNĐ/Tháng</b>
+            </div>
+            <div class="Tn0Banggiamore">
+                <b>Đặt Mua</b>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<div class="choDat_sections choDat_section3" style="background-image: url('img/bg-partner.jpg')">
+    <div class="container">
+        <h1>KHÁCH HÀNG</h1>
+        <div class="bottomline" style="background-image: url(img/line_throught_blue.png);background-repeat: no-repeat;background-size: contain;background-position: center"></div>
+        <div class="row">
+            <div class="col-12">
+                <div id="choDat_section3_slider">
+                    <div class="swiper-container home_slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec7a.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec7b.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec7c.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8d.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8e.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8f.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8g.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8l.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8m.png"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <a href="#"><img src="img/sec8n.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next btn1"></div>
+                        <div class="swiper-button-prev btn2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <a id="myBtn" title="Go to top" ><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    <div class="warpfooter" style="; background-image: url('img/bg-footer.jpg')">
+        <div class="row justify-content-center " style="margin: 0px">
+            <div class="footer">
+                <div class="footerlogo">
+                    <img src="img/logo-white1.png">
+                </div>
+                <div class="footerif">
+                    <p><b class="footertd">CÔNG TY TNHH MỘT THÀNH VIÊN PHÁT TRIỂN<b class="footera"> CÔNG VIÊN PHẦN MỀM QUANG TRUNG</b></b></p>
+                    <div class="info">
+                        <i class="fa fa-map-marker footeri"></i> Nhà 3, Công viên phần mềm Quang Trung, Phường Tân Chánh Hiệp, Quận 12, Tp. Hồ Chí Minh, Việt Nam
+                        <br><i class="fa fa-phone footeri"></i> (84-28) 3715 8999 <i class="fa fa-phone footeri" style="margin-left: 10px; border-left:1px solid white; padding-left: 10px "></i> (84-28) 3715 5985
+                        <br><i class="fa fa-envelope footeri"></i><a class="footersa" href=""> qtsc@qtsc.com.vn</a>
+                        <i class="fa fa-link footeri"  style="margin-left: 10px; border-left:1px solid white; padding-left: 10px "></i><a class="footersa" href=""> www.qtsc.com.vn</a>
+                    </div>
+                    <div class="info">
+                        <i class="fa fa-angle-right footeri"></i>
+                        <i class="fa fa-angle-right footeri"></i>
+                        Người chịu trách nhiệm chính
+                        <br><b style="color: white">Lâm Nguyễn Hải Long - Giám đốc</b>
+                        <br><i class="fa fa-angle-right footeri"></i>
+                        <i class="fa fa-angle-right footeri"></i>
+                        Giấy phép số 21/GP-STTTT do Sở Thông tin và Truyền thông, cấp ngày 31/05/2017
+                    </div>
+                </div>
+                <div class="footerlink">
+                    <b style="color: white; font-size: 13px">Liên Kết Website</b>  <br> <br>
+                    <div class="footercir"> <a class="footersa" href="https://www.facebook.com/quangtrungsoftwarecity"><i  class="fa">&#xf09a;</i></a></div>
+                    <div class="footercir"><a class="footersa" href="https://twitter.com/QTSC"><i class="fa">&#xf099;</i></a></div>
+                    <div class="footercir"><a class="footersa" href="https://plus.google.com/+CôngviênphầnmềmQuangTrung"><i class="fa">&#xf0d5;</i></a></div>
+                    <div class="footercir"><a class="footersa" href="https://www.youtube.com/user/ThuyQTSC/videos"><i  class="fa">&#xf16a;</i></a></div>
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">© Copyright - 2018 : All Rights Reserved. &amp; Designed by <a class="footersa" href="http://hisoft.vn/">HISOFT</a></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/Tn0Menu.js"></script>
+<script src="js/Tn0ThueChoDat.js"></script>
+<script src="js/Tn0Home.js"></script>
+
+
+
+</body>
+</html>

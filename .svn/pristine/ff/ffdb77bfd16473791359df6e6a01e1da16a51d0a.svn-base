@@ -1,0 +1,196 @@
+body{background: ghostwhite }
+.bannerSlider {height:80vh!important;}
+.banner_slider {width:100%;height:100%;float:left}
+.banner_slider .swiper-pagination-bullet {background:lightgrey;transition:all 0.5s}
+.banner_slider .swiper-pagination-bullet-active {width:20px !important;border-radius: 30px !important;}
+
+.introsection{width: 100%; float: left; height: 115px; float: left}
+.introsectionleft{width: 35%; height: 115px; float: left}
+.introsectionright{width: 65%; height: 115px; overflow: hidden; background: #00000080; opacity: 0.5; float: left}
+.introsectionrightdetail{width: 50%; padding-left: 20px; padding-right: 20px; float: left; padding-top: 115px;animation-name: Go;
+    animation-duration: 40s;
+    animation-iteration-count: infinite; margin: 0px; position: relative; font-size: 14px; color: white }
+@keyframes Go {
+    from {bottom: 0%}
+    to {bottom: 300%;}
+}
+.sections {width:100%;float:left;padding:80px 0px}
+.introsection2 {width:80%;max-width: 1080px;margin-right: auto; margin-left: auto}
+.Tn0spec{width: 100%; text-align: center; padding-top: 20px; background: #f0f0f0;overflow:hidden;position:relative}
+.Tn0smallspec{width: 80%; max-width: 1080px;margin-left: auto; margin-right:  auto;position:relative;font-weight:bold;}
+.Tn0warpspec{width: 23%; float: left; background: inherit;text-align: center;padding:20px; transition:all 0.5s; cursor:pointer; margin-bottom:30px; border: 1px dashed #BDBDBD; margin-right: 1%; margin-left: 1%; background: white}
+.Tn0Iconspec{height:70px; width: 70px;margin-left: auto; margin-right:  auto; background: #FFFFFF;transition:all 1s; border:solid 1px #909090}
+.Tn0warpspec:hover .Tn0Iconspec{background:#EE4925;border-radius: 35px; transition-duration:0.4s}
+.Tn0warpspec:hover .Tn0specir{color:#FFFFFF}
+div.Tn0warpspec:hover {
+    border: 1px dashed #EE4925;
+}
+.Tn0specp{font-size: 14px; color: #717171}
+.Tn0specir{padding-top: 20px; padding-bottom: 20px; color: #EE4925; font-size: 30px}
+.Tn0More{width: 150px; height: 40px; border-radius: 360px; border: 1px solid #d1cfcf; font-size: 13px; margin-left: auto; margin-right: auto; text-align: left; padding-top: 9px; padding-left: 15px; background: white}
+.Tn0Morecir{height: 30px; width: 30px; border-radius: 360px; border: 1px solid #d1cfcf; float: right; margin-top: -5px; margin-right: 5px; background:#E24220 ; color: white; text-align: center; font-size: 18px }
+.Tn0More:hover .Tn0Morecir{color:#E24220; background: #FFFFFF ;}
+.Tn0warpcustomer{width: 100%; border-bottom: 5px solid #FFFFFF; padding-top: 20px; padding-bottom: 20px; background-position: center; background-size: 100%}
+@media screen and (max-width:1199px) {
+
+
+    .Tn0warpspec{width: 50%;margin-left:25%;}
+}
+@media screen and (max-width:699px) {
+
+
+    .Tn0warpspec{width: 100%;margin-left:0%}
+    .sections {padding-left:60px;padding-right: 60px;}
+}
+/*section3 slider khach hang*/
+.choDat_sections {
+    width:100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    float:left;
+}
+.choDat_sections h1 {
+    color:#56b0b0;
+    font-size: 24px;
+    font-weight: bold;
+    width:100%;
+    text-align: center;
+}
+.bottomline {
+    height:16px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.choDat_section3 {
+    color: white;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: none;
+}
+.swiper-slide img{
+    border: 0px solid white;
+}
+.content-img img{
+    width: 100%;
+}
+/*session 3*/
+#grad1 {
+    height: 400px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(#EE4D2A, white); /* Standard syntax (must be last) */
+}
+.title-top{
+    color: white;
+}
+.viethoa{
+    font-size: 20px;
+    font-weight: bold;
+}
+.gain{
+    height: 40px;
+    width: 80px;
+    border: 1px solid white;
+    padding-top: 7px;
+    text-align: center;
+    float: right;
+    margin-top: -60px;
+    border-radius: 15px;
+}
+.gain i {
+    color: white;
+
+}
+div.gain:hover{
+    width: 90px;
+}
+.content{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:auto;
+    background-color: white;
+}
+.content img{
+    width: 100%;
+}
+.content img:hover {
+    cursor: pointer;
+}
+.content p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.title{
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title:hover {
+     color: #EE4D2A;
+    cursor: pointer;
+}
+.datemonth{
+    opacity: 0.9;
+    font-size: 14px;
+
+}
+.content-text{
+    font-size: 15px;
+}
+.content-center{
+    width: 100%;
+    height: auto;
+
+}
+.content-left{
+    width: 50%;
+    float: left;
+}
+.content-left img{
+    width: 100%;
+}
+.content-right{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+}
+.title1{
+    font-size: 15px;
+    font-weight: bold;
+}
+.title1:hover {
+    color: #EE4D2A;
+    cursor: pointer;
+}
+.datemonth1{
+    opacity: 0.9;
+    font-size: 14px;
+
+}
+.content-text1{
+    font-size: 15px;
+}
+
+

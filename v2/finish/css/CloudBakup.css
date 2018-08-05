@@ -1,0 +1,116 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.clearfix{
+    background-image: url("../img/world-map.jpg");
+}
+.clearfix-left{
+    padding-left:50px;
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.title-banner{
+    font-size: 50px;
+    font-weight: 300;
+}
+.title-banner-1{
+    font-size: 25px;
+    font-weight: 300;
+}
+.butt{
+    background-color: #EE4D2A;
+    padding: 10px 40px 10px 40px;
+}
+.butt:hover{
+    cursor: pointer;
+    background-color: #2EB5E8;
+}
+
+.content-block{
+    text-align: left;
+}
+.canhgiua{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-content{
+    font-size: 35px;
+    font-weight: 300;
+    color:#EE4D2A;
+}
+.noibat{
+    float: left;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.noibat i{
+    font-size: 50px;
+    display: block;
+    padding-top: 10px;
+    padding-left:10px;
+    color:#2EB5E8;
+}
+.noibat-content{
+    float: left;
+    width: 70%;
+    margin-left: 16px;
+}
+.title-noibat{
+    font-size: 20px;
+    color: #0D7CAA;
+}
+
+.title-noibat:hover {
+    color: #f0343b;
+    cursor: pointer;
+}
+.title-h2{
+    color: #EE4D2A;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 350;
+}
+.content-text-1{
+    font-size: 15px;
+}
+.imgbanner{
+    width: 100%;
+    height: auto;
+
+}
+.imgbanner img{
+    width: 100%;
+    height: auto;
+}
+.learnmore a:hover{
+    color: #EE4D2A;
+}
+.noibat i:hover{
+    color:#EE4D2A;
+    cursor: pointer;
+}
+.title-noibat:hover{
+    color:#EE4D2A;
+    cursor: pointer;
+}
+.noibat-content:hover{
+    cursor: pointer;
+}
+.learnmore{
+}
+.learnmore a:hover{
+    color: #EE4D2A;
+}
+
+
